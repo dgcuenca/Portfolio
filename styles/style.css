@@ -3,6 +3,9 @@
 	width: 375px;
 	background-color: black;
 	border: 2px solid greenyellow;
+	background-image: url(../backgrounds/Illustration.png);
+	background-repeat:no-repeat;
+	background-position: right 0% bottom -25%;
 }
 .toolbar{
 	display: flex;

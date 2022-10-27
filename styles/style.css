@@ -1,0 +1,20 @@
+.firstSection {
+	height: 590px;
+	width: 375px;
+	background-color: black;
+	border: 2px solid greenyellow;
+}
+.toolbar{
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid salmon;
+}
+.toolbar li{
+	color: white;
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-top: 50px;
+	margin-bottom: 12px;
+	line-height: 24px;
+	border: 1px solid lavenderblush;
+}

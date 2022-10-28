@@ -1,0 +1,18 @@
+.middleSection {
+  width: 375px;
+  border: 1px solid salmon;
+  height: 4000px;
+}
+
+.worksSection{
+  display: grid;
+  grid-template-rows: 400px repeat(6, 386px);
+}
+
+.top{
+  border: 1px solid yellow;
+}
+
+.cards{
+  border: 1px solid cyan;
+}

@@ -1,7 +1,6 @@
 .middleSection {
   width: 375px;
-  border: 1px solid salmon;
-  height: 4000px;
+  height: 5572px;
 }
 
 .worksSection{
@@ -10,6 +9,7 @@
   margin-left: 24px;
   margin-right: 24px;
   grid-row-gap: 24px;
+  margin-bottom: 120px;
 }
 
 .top{
@@ -89,7 +89,6 @@
   color: #fff;
 }
 .cards{
-  border: 1px solid cyan;
   display: flex;
   flex-direction: column;
   background-image: url(../backgrounds/Placeholder.png);
@@ -152,4 +151,165 @@
   line-height: 24px;
   color: #fff;
   border: none;
+}
+
+.aboutSection {
+  width: 375px;
+  height: 2016px;
+  background-color: #1c1a19;
+}
+
+.aboutSection .aboutContainer {
+  background-image: url(../backgrounds/about.png);
+  background-repeat: no-repeat;
+  background-position: right 0% bottom 0%;
+}
+.aboutMe {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 120px 24px 0px 24px; 
+}
+
+.aboutMe h1 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-bottom: 24px;
+}
+
+.aboutMe p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  margin-bottom: 24px;
+}
+
+.aboutMe button {
+  background-color: #ff6b00;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  border: none;
+  margin-bottom: 209px;
+}
+
+.skills {
+  text-align: center;
+}
+.skills .language {
+  padding-top: 136px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.first {
+  padding-top: 10px;
+}
+
+.skills .language>span{
+  height: 18px;
+  width: 18px;
+}
+
+.skills .language>img{
+  height: 100%;
+  width: 100%;
+}
+
+.skills .language li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}
+
+.skills .frameworks {
+  padding-top: 28px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.skills .frameworks>span{
+  height: 18px;
+  width: 18px;
+}
+
+.skills .frameworks>img{
+  height: 100%;
+  width: 100%;
+}
+
+.skills .frameworks li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+
+}
+
+.skills .abilities {
+  padding-top: 28px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.skills .abilities>span{
+  height: 18px;
+  width: 18px;
+}
+
+.skills .abilities>img{
+  height: 100%;
+  width: 100%;
+}
+
+.skills .abilities li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+
+}
+
+.last {
+  margin-bottom: 131px;
 }

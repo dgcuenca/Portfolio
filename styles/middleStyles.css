@@ -88,6 +88,30 @@
   line-height: 24px;
   color: #fff;
 }
+
+.top button:hover {
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.top button:active {
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
 .cards{
   display: flex;
   flex-direction: column;
@@ -153,6 +177,29 @@
   border: none;
 }
 
+.footerCards button:hover {
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.footerCards button:active {
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
 .aboutSection {
   width: 375px;
   height: 2016px;
@@ -203,6 +250,29 @@
   color: #fff;
   border: none;
   margin-bottom: 209px;
+}
+
+.aboutMe button:hover {
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.aboutMe button:active {
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 .skills {

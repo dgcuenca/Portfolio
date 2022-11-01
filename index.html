@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="./styles/generalStyle.css">
 	<link rel="stylesheet" href="./styles/firstStyles.css">
 	<link rel="stylesheet" href="./styles/middleStyles.css">
+	<link rel="stylesheet" href="./styles/formStyles.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -203,15 +204,15 @@
 				</h1>
 			</div>
 			<form action="https://formspree.io/f/xrgdolbb" method="post">
-				<div class="fullName">
+				<div class="fullName formBox">
 					<label for="name">
-						<input type="text" id="name" name="userName" maxlength="30"
+						<input class="colorbox" type="text" id="name" name="userName" maxlength="30"
 							placeholder="    Full name" required>
 					</label>
 				</div>
-				<div class="email">
+				<div class="email formBox">
 					<label for="formMail">
-						<input type="email" id="formMail" name="userEmail" placeholder="    Email address"
+						<input class="colorbox" type="email" id="formMail" name="userEmail" placeholder="    Email address"
 							required>
 					</label>
 				</div>
@@ -222,7 +223,7 @@
 					</label>
 				</div>
 				<div class="buttonf">
-					<button class="formButton" type="submit">Get in touch</button>
+					<button class="formButton footerTopButton" type="submit">Get in touch</button>
 				</div>
 			</form>
 			<div class="mediaForm">

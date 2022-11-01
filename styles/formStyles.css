@@ -26,7 +26,7 @@
   padding-bottom: 14px;
 }
 
-.colorbox{
+.colorbox {
   color: #979493;
 }
 
@@ -34,7 +34,7 @@
   min-width: 327px;
   min-height: 114px;
   color: #3c3a39;
-  background-color: #fbf8F7;
+  background-color: #fbf8f7;
   border: 0;
   margin-top: 24px;
   padding: 12px;
@@ -58,7 +58,7 @@
   padding: 25px;
 }
 
-.mediaForm > nav > ul{
+.mediaForm > nav > ul {
   display: flex;
   align-content: center;
 }

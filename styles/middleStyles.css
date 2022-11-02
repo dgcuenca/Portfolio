@@ -1,15 +1,14 @@
 .middleSection {
   width: 375px;
-  height: 5572px;
+  height: 5578px;
 }
 
 .worksSection {
   display: grid;
-  grid-template-rows: 843px repeat(6, 408px);
+  grid-template-rows: 850px repeat(6, 408px);
   margin-left: 24px;
   margin-right: 24px;
   grid-row-gap: 24px;
-  margin-bottom: 120px;
 }
 
 .top {
@@ -39,7 +38,11 @@
   height: 100%;
 }
 
-.contentTop h1 {
+.contentTop h2 {
+  margin-bottom: 10px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 32px;
   line-height: 44px;
 }

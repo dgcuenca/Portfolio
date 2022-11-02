@@ -1,14 +1,17 @@
+.lastSection {
+  width: 375px;
+  padding: 0 30px 0 30px;
+}
 .formSection {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .formHeader {
-  width: 327px;
-  height: 216px;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -19,19 +22,19 @@
 }
 
 .formBox {
-  color: #979493;
-  width: 327px;
   border-bottom: #dbd8d7 solid 1px;
   margin-top: 70px;
   padding-bottom: 14px;
+  width: 100%;
 }
 
 .colorbox {
   color: #979493;
+  width: 100%;
 }
 
 #formMessage {
-  min-width: 327px;
+  width: 315px;
   min-height: 114px;
   color: #3c3a39;
   background-color: #fbf8f7;

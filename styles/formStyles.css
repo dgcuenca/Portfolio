@@ -2,6 +2,7 @@
   width: 375px;
   padding: 0 30px 0 30px;
 }
+
 .formSection {
   display: flex;
   flex-direction: column;
@@ -31,7 +32,6 @@
   margin-top: 70px;
   padding-bottom: 14px;
   width: 100%;
-
 }
 
 .colorbox {

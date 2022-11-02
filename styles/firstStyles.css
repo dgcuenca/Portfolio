@@ -13,7 +13,7 @@
   background: #3c3a39;
 }
 
-.toolbar li {
+.toolbarMobile {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -64,4 +64,10 @@
   display: flex;
   margin-left: 24px;
   gap: 20px;
+}
+
+/* Desktop */
+
+.toolbarDesktop {
+  display: none;
 }

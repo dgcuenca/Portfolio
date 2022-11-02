@@ -1,3 +1,36 @@
 @media (min-width: 768px) {
-    
+
+  /*First Section*/
+  .firstSection {
+    width: 100%;
+  }
+
+  .toolbarMobile {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .toolbarDesktop {
+    display: list-item;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-left: 24px;
+    margin-right: 24px;
+    line-height: 24px;
+  }
+
+  .mobileIconmenu {
+    display: none;
+  }
+
+  .pushright {
+    margin-left: auto;
+  }
+
+  .toolbar {
+    align-items: center;
+    height: 72px;
+  }
 }

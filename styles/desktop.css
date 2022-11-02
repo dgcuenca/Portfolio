@@ -5,12 +5,15 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-image: url(../backgrounds/Desktop/firstSection.png);
+    background-size: contain;
   }
 
   .toolbarMobile {
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .toolbarDesktop {
     display: list-item;
     font-family: 'Roboto', sans-serif;
@@ -37,17 +40,14 @@
     padding-left: 154px;
     padding-right: 154px;
   }
-  
+
   .leftMedia {
     flex: 1;
     display: flex;
-    border: 2px solid red;
-    
   }
 
   .mediaDesktop {
     display: flex;
-    border: 1px solid rebeccapurple;
     order: -1;
     margin-right: 90px;
   }
@@ -56,10 +56,40 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
   }
 
+  .headline {
+    width: 566px;
+  }
 
+  .headline h1 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 82px;
+    color: #f55800;
+  }
 
+  .headline h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .headline p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+  }
+
+  /*Middle Section*/
+  
 
 }

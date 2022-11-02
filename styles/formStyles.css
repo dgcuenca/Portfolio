@@ -22,28 +22,44 @@
 }
 
 .formBox {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
   border-bottom: #dbd8d7 solid 1px;
   margin-top: 70px;
   padding-bottom: 14px;
   width: 100%;
+
 }
 
 .colorbox {
-  color: #979493;
+  color: #615f5f;
   width: 100%;
 }
 
+.colorbox::placeholder {
+  color: #979493;
+}
+
 #formMessage {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
   width: 315px;
   min-height: 114px;
-  color: #3c3a39;
+  color: #615f5f;
   background-color: #fbf8f7;
   border: 0;
   margin-top: 24px;
   padding: 12px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
+}
+
+#formMessage::placeholder {
+  color: #3c3a39;
 }
 
 .buttonf {

@@ -32,5 +32,7 @@
   .toolbar {
     align-items: center;
     height: 72px;
+    padding-left: 154px;
+    padding-right: 154px;
   }
 }

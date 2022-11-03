@@ -7,6 +7,7 @@
     flex-direction: column;
     background-image: none;
   }
+
   .headerFirstSection {
     flex: 1;
   }
@@ -27,7 +28,7 @@
   .background {
     background-image: url(../backgrounds/Desktop/firstSection.png);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     background-position: right 0% bottom 0%;
   }
 
@@ -110,7 +111,7 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin:auto;
+    margin: auto;
     gap: 2rem;
     margin-bottom: 10rem;
   }
@@ -193,6 +194,89 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 1.8em;
+  }
+
+  .cards {
+    display: none;
+  }
+
+  .desktopCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 31rem;
+    padding: 1rem;
+  }
+
+  .desktopCard.once {
+    background-image: url(../backgrounds/Placeholder.png);
+    background-size: cover;
+  }
+
+  .contentOnce {
+    flex: 1;
+  }
+
+  .footerOnce {
+    display: flex;
+  }
+
+  .footerOnce button {
+    flex: 1;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #ff6b00;
+    border: 0;
+    color: #fff;
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    margin: -1rem;
+  }
+
+  .desktopCard.doce {
+    background-image: url(../backgrounds/Desktop/Placeholder12.png);
+    background-size: cover;
+  }
+
+  .contentDoce h1 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .contentDoce p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+  }
+
+  .contentDoce ul {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .contentDoce li {
+    background-color: rgba(255, 255, 255, 0.24);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0.8rem 1rem;
+  }
+
+  .desktopCard.trece {
+    background-image: url(../backgrounds/Desktop/Placeholder13.png);
+    background-size: cover;
   }
 
 

@@ -327,3 +327,7 @@
 .last {
   margin-bottom: 131px;
 }
+
+.desktopCard  {
+  display: none;
+}

@@ -16,7 +16,7 @@
     display: grid;
     grid-template-columns: 1fr 5fr 4fr;
   }
-  
+
   .mediaDesktop {
     display: flex;
     order: -1;
@@ -69,8 +69,6 @@
     padding-right: 8rem;
   }
 
-
-
   .headline h1 {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -101,6 +99,45 @@
   }
 
   /*Middle Section*/
+  .middleSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
 
+  .worksSection {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:auto;
+    gap: 2rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+  }
+
+  .topheadContainer {
+    display: flex;
+    gap: 0;
+  }
+
+  .topheadContainer h1 {
+    width: 30%;
+    margin-top: 0;
+    padding-bottom: 0;
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 1rem;
+  }
+
+  .topheadContainer .line {
+    margin-top: 2rem;
+    margin-left: -1rem;
+    padding-left: 0;
+    width: 70%;
+    min-height: 0;
+  }
 
 }

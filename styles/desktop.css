@@ -113,12 +113,13 @@
     margin:auto;
     gap: 2rem;
     margin-bottom: 10rem;
-    margin-top: 10rem;
   }
 
   .topheadContainer {
     display: flex;
     gap: 0;
+    margin-bottom: 7rem;
+    margin-top: 10rem;
   }
 
   .topheadContainer h1 {
@@ -139,5 +140,53 @@
     width: 70%;
     min-height: 0;
   }
+
+  .topcontentContainer {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .yoga {
+    width: 60%;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .contentContainerTop {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contentTop h2 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 4rem;
+
+  }
+
+  .contentTop p {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+
+  .footerTop {
+    margin-bottom: 1.2rem;
+  }
+
+  .footerTop ul {
+    gap: 1.2rem;
+    margin-right: 0;
+  }
+
+  .footerTop li {
+    padding: 1rem 1.2rem;
+    font-size: 1.15rem;
+    line-height: 1.8rem;
+  }
+
 
 }

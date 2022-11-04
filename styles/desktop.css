@@ -295,12 +295,10 @@
 
   .aboutSection {
     width: 100%;
-    height: 65rem;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 2rem;
-    padding: 7rem;
   }
 
   .aboutSection .aboutContainer {
@@ -310,43 +308,49 @@
   .aboutMe {
     margin: 0;
     border-bottom: 0;
+    padding-left: 7rem;
+    padding-top: 7rem;
   }
 
   .aboutMe h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     margin-bottom: 0.2rem;
-    line-height: 6rem;
+    line-height: 8rem;
   }
 
   .aboutMe p {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
+    font-size: 2rem;
+    line-height: 3rem;
   }
 
   .aboutMeButton {
     margin: 0;
     line-height: 0;
     font-size: 1.1rem;
+    margin-bottom: 7rem;
   }
 
   .aboutBackground {
     background-image: url(../backgrounds/Desktop/aboutDesktop.png);
-    display: block;
+    display: inline;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right 10% top 25%;
-    margin-right: -7rem;
+    background-position: right 0% bottom 0%;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
   }
 
   .skills {
-    margin-top: 4rem;
     border-top: 1px solid #fff;
-    padding-top: 8rem;
     grid-area: 2/1/3/3;
     display: flex;
-    justify-content: start;
     text-align: start;
-    gap: 15rem;
+    justify-content: space-between;
+    margin-right: 7rem;
+    margin-left: 7rem;
+    padding-top: 7rem;
+    padding-right: 15rem;
+
   }
 
   .skills .language img {
@@ -356,13 +360,13 @@
 
   .skills .language {
     padding: 0;
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 0;
   }
 
   .skills .language li {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
   }
 
   .skills .frameworks img {
@@ -372,13 +376,13 @@
 
   .skills .frameworks {
     padding: 0;
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 0;
   }
 
   .skills .frameworks li {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
   }
 
   .skills .abilities img {
@@ -388,13 +392,13 @@
 
   .skills .abilities {
     padding: 0;
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 0;
   }
 
   .skills .abilities li {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
   }
 
   .last {

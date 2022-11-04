@@ -36,6 +36,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
   .toolbarMobile {
@@ -384,8 +385,39 @@
     line-height: 1.5rem;
   }
 
-
   .last {
     padding: 0;
   }
+
+  /* formSection */
+  .lastSection {
+    width: 100%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0;
+    border: 2px solid red;
+  
+  }
+
+  .formSection {
+    border: 1px solid yellow;
+  }
+
+  .formHeader {
+    
+  }  
+
+
+
+
+
+  .mediaDesk {
+  
+  }
+
+  .finalSeparator {
+    display: none;
+  }
+
+
 }

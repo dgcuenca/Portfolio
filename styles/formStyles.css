@@ -75,11 +75,13 @@
   margin-top: 124px;
   display: flex;
   padding: 25px;
+  justify-content: center;
 }
 
 .mediaForm > nav > ul {
   display: flex;
   align-content: center;
+  justify-content: center;
 }
 
 .finalSeparator {

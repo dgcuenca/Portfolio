@@ -20,8 +20,7 @@
   .mediaDesktop {
     display: flex;
     order: -1;
-    align-items: center;
-    justify-content: center;
+    padding-left: 2rem;
   }
 
   .background {
@@ -35,8 +34,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    gap: 1.5rem;
   }
+
+  .media li {
+    height: 1.3rem;
+    width: 1.3rem;
+  } 
+
+  .iconmediaUp {
+    height: 100%;
+    width: 100%;
+  }
+
 
   .toolbarMobile {
     margin-top: 0;
@@ -70,6 +80,10 @@
     padding-right: 8rem;
   }
 
+  .headline {
+    margin-left: -3rem;
+  }
+
   .headline h1 {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -77,6 +91,7 @@
     font-size: 6rem;
     line-height: 6rem;
     color: #f55800;
+    padding-top: 3rem;
   }
 
   .headline h2 {

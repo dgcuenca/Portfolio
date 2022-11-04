@@ -392,32 +392,73 @@
   /* formSection */
   .lastSection {
     width: 100%;
-    margin-left: 3rem;
-    margin-right: 3rem;
     padding: 0;
-    border: 2px solid red;
-  
   }
 
-  .formSection {
-    border: 1px solid yellow;
+  .desktopformContainer {
+    display: flex;
+    padding: 6rem;
+    gap: 2rem ;
+    margin-bottom: 3rem;
+  }
+
+  .desktopTEXT {
+    flex: 1;
+  }
+
+  .desktopFORM {
+    flex: 1.5;
+    padding-left: 2rem;
   }
 
   .formHeader {
-    
+    text-align: start;
+    margin: 0;
+    font-size: 2.4rem;
+    line-height: 3rem;
   }  
 
+  .formBox {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+  }
 
+  #formMessage {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    min-height: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 
+  .buttonf {
+    margin: 0;
+    justify-content: start;
+    margin-top: 2rem;
+  }
 
+  .formButton {
+    font-size: 1rem;
+    padding: 1rem;
+    line-height: 1rem;
+  }
 
-  .mediaDesk {
-  
+  .mediaForm {
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   .finalSeparator {
     display: none;
   }
-
 
 }

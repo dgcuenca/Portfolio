@@ -40,13 +40,12 @@
   .media li {
     height: 1.3rem;
     width: 1.3rem;
-  } 
+  }
 
   .iconmediaUp {
     height: 100%;
     width: 100%;
   }
-
 
   .toolbarMobile {
     margin-top: 0;
@@ -350,7 +349,6 @@
     margin-left: 7rem;
     padding-top: 7rem;
     padding-right: 15rem;
-
   }
 
   .skills .language img {

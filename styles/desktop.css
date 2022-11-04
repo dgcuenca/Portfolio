@@ -312,14 +312,14 @@
   }
 
   .aboutMe h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     margin-bottom: 0.2rem;
     line-height: 8rem;
   }
 
   .aboutMe p {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .aboutMeButton {
@@ -363,7 +363,7 @@
   }
 
   .skills .language li {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 1.8rem;
   }
 
@@ -379,7 +379,7 @@
   }
 
   .skills .frameworks li {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 1.8rem;
   }
 
@@ -395,7 +395,7 @@
   }
 
   .skills .abilities li {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 1.8rem;
   }
 

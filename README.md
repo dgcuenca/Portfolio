@@ -16,7 +16,7 @@
 
 ## Getting Started
 
-- NA
+- [Presentation](https://www.loom.com/share/c33747db39a04f02bde5e300480979ce)
 
 ## Authors
 

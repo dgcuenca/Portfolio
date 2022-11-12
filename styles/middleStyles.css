@@ -1,14 +1,14 @@
 .middleSection {
-  width: 375px;
-  height: 5578px;
+  width: 100%;
+  height: auto;
 }
 
 .worksSection {
   display: grid;
-  grid-template-rows: 850px repeat(6, 408px);
-  margin-left: 24px;
-  margin-right: 24px;
-  grid-row-gap: 24px;
+  grid-template-rows: auto repeat(6, 100vh);
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+  grid-row-gap: 2.4rem;
 }
 
 .top {
@@ -16,69 +16,72 @@
   flex-direction: column;
 }
 
-.top h1 {
-  font-size: 40px;
-  line-height: 52px;
-  margin-top: 120px;
-  padding-bottom: 20px;
+.top h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 5.2rem;
+  margin-top: 12rem;
+  padding-bottom: 2rem;
+  text-align: center; 
 }
 
 .line {
-  border-top: 1px solid #212121;
-  min-height: 80px;
+  border-top: 0.1rem solid #212121;
+  min-height: 8rem;
 }
 
 .yoga {
-  height: 237px;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 .yoga img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .contentTop h2 {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
 }
 
 .contentTop p {
   font-family: 'Inter', sans-serif;
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
 }
 
 .footerTop {
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
 }
 
 .footerTop ul {
   display: flex;
-  gap: 12px;
+  gap: 1.2rem;
 }
 
 .footerTop li {
-  border: 1px #8993a4 solid;
-  padding: 10px 12px;
+  border: 0.1rem #8993a4 solid;
+  padding: 1rem 1.2rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .footerTopButton {
   background-color: #ff6b00;
-  padding: 12px;
+  padding: 1.2rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
   color: #fff;
   border: 0;
 }
@@ -99,6 +102,7 @@
   flex-direction: column;
   background-image: url(../backgrounds/Placeholder.png);
   background-size: cover;
+  height: 100vh;
 }
 
 .contentCards {
@@ -106,32 +110,32 @@
 }
 
 .contentCards h1 {
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
   color: #fff;
-  margin: 84px 16px 12px 16px;
+  margin: 8.4rem 1.6rem 1.2rem 1.6rem;
 }
 
 .contentCards p {
   font-family: 'Inter', sans-serif;
   color: #fff;
-  margin: 0 16px 12px 16px;
+  margin: 0 1.6rem 1.2rem 1.6rem;
 }
 
 .contentCards ul {
   display: flex;
-  margin: 0 16px 22px 16px;
-  gap: 12px;
+  margin: 0 1.6rem 2.2rem 1.6rem;
+  gap: 1.2rem;
 }
 
 .contentCards li {
   background-color: rgba(255, 255, 255, 0.24);
-  padding: 10px 12px;
+  padding: 1rem 1.2rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 2.0rem;
   color: #fff;
 }
 
@@ -142,19 +146,19 @@
 
 .footerCards button {
   background-color: #ff6b00;
-  padding: 12px;
+  padding: 1.2rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
   color: #fff;
   border: none;
 }
 
 .footerCards button:hover {
   background-color: #fff5e1;
-  border: 1px solid #f55800;
+  border: 0.1rem solid #f55800;
   color: #f55800;
 }
 
@@ -164,8 +168,8 @@
 }
 
 .aboutSection {
-  width: 375px;
-  height: 2016px;
+  width: 100%;
+  height: auto;
   background-color: #1c1a19;
 }
 
@@ -176,42 +180,45 @@
 }
 
 .aboutMe {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1rem solid #fff;
   display: flex;
   flex-direction: column;
-  margin: 120px 24px 0 24px;
+  margin: 1rem 2.4rem 0 2.4rem;
 }
 
-.aboutMe h1 {
-  font-size: 65px;
-  line-height: 88px;
-  letter-spacing: 0.37px;
+.aboutMe h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.5rem;
+  line-height: 8.8rem;
+  letter-spacing: 0.037rem;
   color: #ff6b00;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 .aboutMe p {
   font-family: 'Inter', sans-serif;
   color: #f4f5f7;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 .aboutMeButton {
   background-color: #ff6b00;
-  padding: 12px;
+  padding: 1.2rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
   color: #fff;
   border: none;
-  margin-bottom: 209px;
+  margin-bottom: 20.9rem;
 }
 
 .aboutMeButton:hover {
   background-color: #fff5e1;
-  border: 1px solid #f55800;
+  border: 0.1rem solid #f55800;
   color: #f55800;
 }
 
@@ -225,25 +232,25 @@
 }
 
 .skills .language {
-  padding-top: 136px;
+  padding-top: 1.36rem;
   color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 1.8rem;
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
 }
 
 .first {
-  padding-top: 10px;
+  padding-top: 1rem;
 }
 
 .skills .language > span {
-  height: 18px;
-  width: 18px;
+  height: 1.8rem;
+  width: 1.8rem;
 }
 
 .skills .language > img {
@@ -255,27 +262,27 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
+  font-size: 2.2rem;
+  line-height: 4.3rem;
   color: #fff;
 }
 
 .skills .frameworks {
-  padding-top: 28px;
+  padding-top: 2.8rem;
   color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 1.8rem;
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
 }
 
 .skills .frameworks > span {
-  height: 18px;
-  width: 18px;
+  height: 1.8rem;
+  width: 1.8rem;
 }
 
 .skills .frameworks > img {
@@ -287,27 +294,27 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
+  font-size: 2.2rem;
+  line-height: 4.3rem;
   color: #fff;
 }
 
 .skills .abilities {
-  padding-top: 28px;
+  padding-top: 2.8rem;
   color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 1.8rem;
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
 }
 
 .skills .abilities > span {
-  height: 18px;
-  width: 18px;
+  height: 1.8rem;
+  width: 1.8rem;
 }
 
 .skills .abilities > img {
@@ -319,13 +326,13 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
+  font-size: 2.2rem;
+  line-height: 4.3rem;
   color: #fff;
 }
 
 .last {
-  margin-bottom: 131px;
+  margin-bottom: 13.1rem;
 }
 
 .desktopCard {

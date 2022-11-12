@@ -33,13 +33,12 @@
 .background {
   background-image: url(../backgrounds/Illustration.png);
   background-repeat: no-repeat;
-  background-position: right 0% bottom 40%;;
+  background-position: right 0% bottom 40%;
   position: absolute;
   right: 0;
   bottom: 0;
   width: 30%;
   height: 70vh;
-
 }
 
 .headline {

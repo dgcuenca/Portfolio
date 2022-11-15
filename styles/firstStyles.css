@@ -25,6 +25,14 @@
   line-height: 2rem;
 }
 
+.noShow {
+  display: none;
+}
+
+.show {
+  display:block;
+}
+
 .toolbar .toolbarMobile a {
   color: inherit;
   text-decoration: none;

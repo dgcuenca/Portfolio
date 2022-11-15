@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="./styles/middleStyles.css">
 	<link rel="stylesheet" href="./styles/formStyles.css">
 	<link rel="stylesheet" href="./styles/desktop.css">
+	<script src="./scripts/hamburger.js" defer></script>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
@@ -30,7 +31,15 @@
 					<img src="./icons/desktop/mail.png" alt="mailIcon">
 				</li>
 				<li class="toolbarMobile mobileIconmenu">
-					<nav><img src="./icons/iconMenu.png" alt="iconMenu"></nav>
+					<nav>
+						<img id="hamburgerIcon" src="./icons/iconMenu.png" alt="iconMenu">
+						<div id="hamburgerDropdownContent" class="noShow">
+							<a href="#"><img src="./icons/closeIcon.png" alt="Hamburger Close Icon"></a>
+							<a href="#portfolioSection">Portfolio</a>
+							<a href="#aboutSection">About</a>
+							<a href="#contactSection">Contact</a>
+						</div>
+					</nav>
 				</li>
 			</ul>
 		</header>
@@ -55,7 +64,7 @@
 			<div class="background"></div>
 		</div>
 	</div>
-	<div class="middleSection">
+	<div class="middleSection" id="portfolioSection">
 		<div class="worksSection">
 			<div class="top">
 				<div class="topheadContainer">
@@ -256,7 +265,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="aboutSection">
+		<div class="aboutSection" id="aboutSection">
 			<div class="aboutContainer">
 				<section class="aboutMe">
 					<h2>About me</h2>
@@ -294,7 +303,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="lastSection">
+	<div class="lastSection" id="contactSection">
 		<footer class="formSection">
 			<div class="desktopformContainer">
 				<div class="desktopTEXT">

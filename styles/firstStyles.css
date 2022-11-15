@@ -27,10 +27,38 @@
 
 .noShow {
   display: none;
+  position: absolute;
+  background-color: #3c3a39;
+  box-shadow: 0 4.8rem 4.8rem rgba(37, 47, 137, 0.08);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.noShow a {
+  color: #fff5e1;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  border-bottom: #6f6c6b solid 0.1rem;
+  list-style-type: none;
 }
 
 .show {
-  display:block;
+  display: block;
+}
+
+.noShow .btnx {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5%;
+  border-bottom: none;
 }
 
 .toolbar .toolbarMobile a {

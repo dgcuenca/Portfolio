@@ -21,14 +21,21 @@ firstButtonPopup.addEventListener('click', () => {
 function displayLayoutPopup() {
   const firstPopupContainer = document.getElementById("firstPopupContainer");
   firstPopupContainer.replaceChildren();
-  let img = document.createElement('img');
-  img.src = `${dataPopup[0].close_icon}`;
-  img.class = 'closePopup';
-  firstPopupContainer.appendChild(img);
-
   let h2 = document.createElement('h2');
   h2.textContent = `${dataPopup[0].title}`;
-  firstPopupContainer.appendChild(h2);
+  let img = document.createElement('img');
+  img.src = `${dataPopup[0].close_icon}`;
+  // img.class = 'closePopup';
+
+  let div = document.createElement('div');
+  div.classList.add('containerHeadPopup');
+  div.appendChild(h2);
+
+  let divimg = document.createElement('div');
+  div.appendChild(divimg);
+  divimg.appendChild(img);
+  firstPopupContainer.appendChild(div);
+
 
   let language1 = document.createElement('button');
   language1.textContent = `${dataPopup[0].language1}`;
@@ -50,6 +57,13 @@ function displayLayoutPopup() {
   p.textContent = `${dataPopup[0].textmulti}`;
   firstPopupContainer.appendChild(p);
 
+  let btn_seelive = document.createElement('button');
+  btn_seelive.textContent = `${dataPopup[0].btn_seelive}`;
+  firstPopupContainer.appendChild(btn_seelive);
+
+  let btn_seeSource = document.createElement('button');
+  btn_seeSource.textContent = `${dataPopup[0].btn_seeSource}`;
+  firstPopupContainer.appendChild(btn_seeSource);
 
 };
 
@@ -58,6 +72,3 @@ document.addEventListener('click', function (e) {
     document.getElementById("firstPopupContainer").classList.toggle("show2");
   }
 });
-
-
-

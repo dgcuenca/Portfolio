@@ -346,8 +346,9 @@
 /* popUp */
 
 .popupContainer {
-  min-width: 100rem;
-  min-height: 100rem;
+  padding: 2rem;
+  min-width: 10rem;
+  min-height: 10rem;
   border: #e05304 0.1rem solid;
   display: none;
 }

@@ -13,7 +13,6 @@ const dataPopup = [
 ];
 
 const firstButtonPopup = document.getElementById('firstButtonPopup');
-
 firstButtonPopup.addEventListener('click', () => {
   document.getElementById("firstPopupContainer").classList.toggle("show2");
   displayLayoutPopup();
@@ -21,14 +20,21 @@ firstButtonPopup.addEventListener('click', () => {
 
 function displayLayoutPopup() {
   const firstPopupContainer = document.getElementById("firstPopupContainer");
+  firstPopupContainer.replaceChildren();
   let img = document.createElement('img');
   img.src = `${dataPopup[0].close_icon}`;
+  img.class = 'closePopup';
   firstPopupContainer.appendChild(img);
   let h2 = document.createElement('h2');
   h2.textContent = `${dataPopup[0].title}`;
   firstPopupContainer.appendChild(h2);
 };
 
+document.addEventListener('click', function (e) {
+  if (e.target && e.target.class == 'closePopup') {
+    document.getElementById("firstPopupContainer").classList.toggle("show2");
+  }
+});
 
 
 

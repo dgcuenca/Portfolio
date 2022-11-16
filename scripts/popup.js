@@ -25,9 +25,32 @@ function displayLayoutPopup() {
   img.src = `${dataPopup[0].close_icon}`;
   img.class = 'closePopup';
   firstPopupContainer.appendChild(img);
+
   let h2 = document.createElement('h2');
   h2.textContent = `${dataPopup[0].title}`;
   firstPopupContainer.appendChild(h2);
+
+  let language1 = document.createElement('button');
+  language1.textContent = `${dataPopup[0].language1}`;
+  firstPopupContainer.appendChild(language1);
+
+  let language2 = document.createElement('button');
+  language2.textContent = `${dataPopup[0].language2}`;
+  firstPopupContainer.appendChild(language2);
+
+  let language3 = document.createElement('button');
+  language3.textContent = `${dataPopup[0].language3}`;
+  firstPopupContainer.appendChild(language3);
+
+  let image = document.createElement('img');
+  image.src = `${dataPopup[0].image}`;
+  firstPopupContainer.appendChild(image);
+
+  let p = document.createElement('p');
+  p.textContent = `${dataPopup[0].textmulti}`;
+  firstPopupContainer.appendChild(p);
+
+
 };
 
 document.addEventListener('click', function (e) {

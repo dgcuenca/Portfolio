@@ -39,14 +39,18 @@ function displayLayoutPopup() {
 
   let language1 = document.createElement('button');
   language1.textContent = `${dataPopup[0].language1}`;
+  language1.classList.add('butoompopup');
   firstPopupContainer.appendChild(language1);
+  
 
   let language2 = document.createElement('button');
   language2.textContent = `${dataPopup[0].language2}`;
+  language2.classList.add('butoompopup');
   firstPopupContainer.appendChild(language2);
 
   let language3 = document.createElement('button');
   language3.textContent = `${dataPopup[0].language3}`;
+  language3.classList.add('butoompopup');
   firstPopupContainer.appendChild(language3);
 
   let image = document.createElement('img');

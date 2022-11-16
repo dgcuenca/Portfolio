@@ -342,3 +342,16 @@
 .aboutBackground {
   display: none;
 }
+
+/* popUp */
+
+.popupContainer {
+  min-width: 100rem;
+  min-height: 100rem;
+  border: #e05304 0.1rem solid;
+  display: none;
+}
+
+.show2 {
+  display: block;
+}

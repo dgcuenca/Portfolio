@@ -15,6 +15,7 @@ const dataPopup = [
 const firstButtonPopup = document.getElementById('firstButtonPopup');
 firstButtonPopup.addEventListener('click', () => {
   document.getElementById("firstPopupContainer").classList.toggle("show2");
+  document.getElementById('overlay').classList.toggle('overlayOn')
   displayLayoutPopup();
 });
 
@@ -25,7 +26,7 @@ function displayLayoutPopup() {
   h2.textContent = `${dataPopup[0].title}`;
   let img = document.createElement('img');
   img.src = `${dataPopup[0].close_icon}`;
-  // img.class = 'closePopup';
+  img.class = 'closePopup';
 
   let div = document.createElement('div');
   div.classList.add('containerHeadPopup');
@@ -74,5 +75,6 @@ function displayLayoutPopup() {
 document.addEventListener('click', function (e) {
   if (e.target && e.target.class == 'closePopup') {
     document.getElementById("firstPopupContainer").classList.toggle("show2");
+    document.getElementById('overlay').classList.toggle('overlayOn')
   }
 });

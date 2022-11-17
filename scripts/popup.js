@@ -10,6 +10,7 @@ const dataPopup = [
     btn_seelive: "See Live",
     btn_seeSource: "See Source",
   }
+  
 ];
 
 const firstButtonPopup = document.getElementById('firstButtonPopup');

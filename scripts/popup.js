@@ -1,7 +1,98 @@
 const dataPopup = [
   {
     closeIcon: '../icons/closeIcon.png',
-    title: 'Multi Post Stories',
+    title: 'Multi Post Storie 1',
+    language1: 'Html',
+    language2: 'Bootstrap',
+    language3: 'Ruby on rails',
+    image: '../images/mobilePopup.png',
+    textmulti: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ",
+    btnSeelive: 'See Live',
+    iconSeelive: '../icons/live.png',
+    btnSeeSource: 'See Source',
+    iconSeeSource: '../icons/source.png',
+  },
+  {
+    closeIcon: '../icons/closeIcon.png',
+    title: 'Multi Post Storie 2',
+    language1: 'Html',
+    language2: 'Bootstrap',
+    language3: 'Ruby on rails',
+    image: '../images/mobilePopup.png',
+    textmulti: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ",
+    btnSeelive: 'See Live',
+    iconSeelive: '../icons/live.png',
+    btnSeeSource: 'See Source',
+    iconSeeSource: '../icons/source.png',
+  },
+  {
+    closeIcon: '../icons/closeIcon.png',
+    title: 'Multi Post Storie 3',
+    language1: 'Html',
+    language2: 'Bootstrap',
+    language3: 'Ruby on rails',
+    image: '../images/mobilePopup.png',
+    textmulti: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ",
+    btnSeelive: 'See Live',
+    iconSeelive: '../icons/live.png',
+    btnSeeSource: 'See Source',
+    iconSeeSource: '../icons/source.png',
+  },
+  {
+    closeIcon: '../icons/closeIcon.png',
+    title: 'Multi Post Storie 4',
+    language1: 'Html',
+    language2: 'Bootstrap',
+    language3: 'Ruby on rails',
+    image: '../images/mobilePopup.png',
+    textmulti: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ",
+    btnSeelive: 'See Live',
+    iconSeelive: '../icons/live.png',
+    btnSeeSource: 'See Source',
+    iconSeeSource: '../icons/source.png',
+  },
+  {
+    closeIcon: '../icons/closeIcon.png',
+    title: 'Multi Post Storie 5',
+    language1: 'Html',
+    language2: 'Bootstrap',
+    language3: 'Ruby on rails',
+    image: '../images/mobilePopup.png',
+    textmulti: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ",
+    btnSeelive: 'See Live',
+    iconSeelive: '../icons/live.png',
+    btnSeeSource: 'See Source',
+    iconSeeSource: '../icons/source.png',
+  },
+  {
+    closeIcon: '../icons/closeIcon.png',
+    title: 'Multi Post Storie 6',
+    language1: 'Html',
+    language2: 'Bootstrap',
+    language3: 'Ruby on rails',
+    image: '../images/mobilePopup.png',
+    textmulti: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ",
+    btnSeelive: 'See Live',
+    iconSeelive: '../icons/live.png',
+    btnSeeSource: 'See Source',
+    iconSeeSource: '../icons/source.png',
+  },
+  {
+    closeIcon: '../icons/closeIcon.png',
+    title: 'Multi Post Storie 7',
+    language1: 'Html',
+    language2: 'Bootstrap',
+    language3: 'Ruby on rails',
+    image: '../images/mobilePopup.png',
+    textmulti: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ",
+    btnSeelive: 'See Live',
+    iconSeelive: '../icons/live.png',
+    btnSeeSource: 'See Source',
+    iconSeeSource: '../icons/source.png',
+  },
+  {
+    closeIcon: '../icons/closeIcon.png',
+    title: 'Multi Post Storie 8',
     language1: 'Html',
     language2: 'Bootstrap',
     language3: 'Ruby on rails',
@@ -15,13 +106,15 @@ const dataPopup = [
 
 ];
 
-function displayLayoutPopup() {
+var card = 0;
+
+function displayLayoutPopup(index) {
   const firstPopupContainer = document.getElementById('firstPopupContainer');
   firstPopupContainer.replaceChildren();
   const h2 = document.createElement('h2');
-  h2.textContent = `${dataPopup[0].title}`;
+  h2.textContent = `${dataPopup[index].title}`;
   const img = document.createElement('img');
-  img.src = `${dataPopup[0].closeIcon}`;
+  img.src = `${dataPopup[index].closeIcon}`;
   img.class = 'closePopup';
 
   const div = document.createElement('div');
@@ -37,17 +130,17 @@ function displayLayoutPopup() {
   divlanguages.classList.add('containerLanguages');
 
   const language1 = document.createElement('button');
-  language1.textContent = `${dataPopup[0].language1}`;
+  language1.textContent = `${dataPopup[index].language1}`;
   language1.classList.add('butoompopup');
   divlanguages.appendChild(language1);
 
   const language2 = document.createElement('button');
-  language2.textContent = `${dataPopup[0].language2}`;
+  language2.textContent = `${dataPopup[index].language2}`;
   language2.classList.add('butoompopup');
   divlanguages.appendChild(language2);
 
   const language3 = document.createElement('button');
-  language3.textContent = `${dataPopup[0].language3}`;
+  language3.textContent = `${dataPopup[index].language3}`;
   language3.classList.add('butoompopup');
   divlanguages.appendChild(language3);
 
@@ -57,7 +150,7 @@ function displayLayoutPopup() {
   divmainImagen.classList.add('containerMainImagen');
 
   const image = document.createElement('img');
-  image.src = `${dataPopup[0].image}`;
+  image.src = `${dataPopup[index].image}`;
   divmainImagen.appendChild(image);
 
   firstPopupContainer.appendChild(divmainImagen);
@@ -67,14 +160,14 @@ function displayLayoutPopup() {
   firstPopupContainer.appendChild(divbottonPopup);
 
   const p = document.createElement('p');
-  p.textContent = `${dataPopup[0].textmulti}`;
+  p.textContent = `${dataPopup[index].textmulti}`;
   divbottonPopup.appendChild(p);
 
   const divSee = document.createElement('div');
   divbottonPopup.appendChild(divSee);
 
   const btnSeelive = document.createElement('button');
-  btnSeelive.textContent = `${dataPopup[0].btnSeelive}`;
+  btnSeelive.textContent = `${dataPopup[index].btnSeelive}`;
   divSee.appendChild(btnSeelive);
 
   const spanLive = document.createElement('span');
@@ -82,11 +175,11 @@ function displayLayoutPopup() {
   btnSeelive.appendChild(spanLive);
 
   const imgSpan = document.createElement('img');
-  imgSpan.src = `${dataPopup[0].iconSeelive}`;
+  imgSpan.src = `${dataPopup[index].iconSeelive}`;
   spanLive.appendChild(imgSpan);
 
   const btnSeeSource = document.createElement('button');
-  btnSeeSource.textContent = `${dataPopup[0].btnSeeSource}`;
+  btnSeeSource.textContent = `${dataPopup[index].btnSeeSource}`;
   divSee.appendChild(btnSeeSource);
 
   const spanSource = document.createElement('span');
@@ -94,19 +187,116 @@ function displayLayoutPopup() {
   btnSeeSource.appendChild(spanSource);
 
   const imgSource = document.createElement('img');
-  imgSource.src = `${dataPopup[0].iconSeeSource}`;
+  imgSource.src = `${dataPopup[index].iconSeeSource}`;
   spanSource.appendChild(imgSource);
 }
 
-const firstButtonPopup = document.getElementById('firstButtonPopup');
-firstButtonPopup.addEventListener('click', () => {
-  document.getElementById('firstPopupContainer').classList.toggle('show2');
-  document.getElementById('overlay').classList.toggle('overlayOn');
-  displayLayoutPopup();
+// Need to be improve in future //
+
+document.addEventListener('click', (e) => {
+  switch (e.target.id) {
+    case "firstButtonPopup":
+      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('overlay').classList.toggle('overlayOn');
+      card = 1;
+      displayLayoutPopup(0);
+    break;
+    case "secondButtonPopup":
+      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('overlay').classList.toggle('overlayOn');
+      card = 2;
+      displayLayoutPopup(1);
+    break;
+    case "thirdButtonPopup":
+      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('overlay').classList.toggle('overlayOn');
+      card = 3;
+      displayLayoutPopup(2);
+    break;
+    case "fourthButtonPopup":
+      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('overlay').classList.toggle('overlayOn');
+      card = 4;
+      displayLayoutPopup(3);
+    break;
+    case "fifthButtonPopup":
+      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('overlay').classList.toggle('overlayOn');
+      card = 5;
+      displayLayoutPopup(4);
+    break;
+    case "sixthButtonPopup":
+      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('overlay').classList.toggle('overlayOn');
+      card = 6;
+      displayLayoutPopup(5);
+    break;
+    case "seventhButtonPopup":
+      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('overlay').classList.toggle('overlayOn');
+      card = 7;
+      displayLayoutPopup(6);
+    break;
+    case "eighthButtonPopup":
+      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('overlay').classList.toggle('overlayOn');
+      card = 8;
+      displayLayoutPopup(7);
+    break;
+  }
+})
+
+document.addEventListener('click', (e) => {
+  if ((e.target && e.target.class === 'closePopup') && card === 1) {
+    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('overlay').classList.toggle('overlayOn');
+  }
 });
 
 document.addEventListener('click', (e) => {
-  if (e.target && e.target.class === 'closePopup') {
+  if ((e.target && e.target.class === 'closePopup') && card === 2) {
+    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('overlay').classList.toggle('overlayOn');
+  }
+});
+
+document.addEventListener('click', (e) => {
+  if ((e.target && e.target.class === 'closePopup') && card === 3) {
+    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('overlay').classList.toggle('overlayOn');
+  }
+});
+
+document.addEventListener('click', (e) => {
+  if ((e.target && e.target.class === 'closePopup') && card === 4) {
+    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('overlay').classList.toggle('overlayOn');
+  }
+});
+
+document.addEventListener('click', (e) => {
+  if ((e.target && e.target.class === 'closePopup') && card === 5) {
+    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('overlay').classList.toggle('overlayOn');
+  }
+});
+
+document.addEventListener('click', (e) => {
+  if ((e.target && e.target.class === 'closePopup') && card === 6) {
+    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('overlay').classList.toggle('overlayOn');
+  }
+});
+
+document.addEventListener('click', (e) => {
+  if ((e.target && e.target.class === 'closePopup') && card === 7) {
+    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('overlay').classList.toggle('overlayOn');
+  }
+});
+
+document.addEventListener('click', (e) => {
+  if ((e.target && e.target.class === 'closePopup') && card === 8) {
     document.getElementById('firstPopupContainer').classList.toggle('show2');
     document.getElementById('overlay').classList.toggle('overlayOn');
   }

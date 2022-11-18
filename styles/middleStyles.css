@@ -358,7 +358,6 @@
   transform: translate(2.5%, 8%);
   z-index: 2;
   background-color: white;
-  border: #e05304 0.5rem solid;
 }
 
 #overlay {

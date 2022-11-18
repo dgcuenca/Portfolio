@@ -1,5 +1,4 @@
 @media (min-width: 768px) {
-
   /* First Section */
   .firstSection {
     width: 100%;
@@ -495,7 +494,6 @@
     margin-left: 2rem;
   }
 
-
   .containerLanguages {
     margin-top: 0.3rem;
     margin-left: 2rem;
@@ -522,14 +520,14 @@
 
   .containerMainImagen img {
     max-width: 100%;
-    margin-left: none;
-    margin-right: none;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .containerBottonPopup p {
     margin-top: 3rem;
     margin-right: 2rem;
-  }  
+  }
 
   .containerBottonPopup > div {
     margin-right: 2rem;
@@ -539,6 +537,4 @@
     justify-content: start;
     flex: 0 1 auto;
   }
-
-
 }

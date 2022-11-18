@@ -106,7 +106,7 @@ const dataPopup = [
 
 ];
 
-var card = 0;
+let card = 0;
 
 function displayLayoutPopup(index) {
   const firstPopupContainer = document.getElementById('firstPopupContainer');
@@ -146,7 +146,7 @@ function displayLayoutPopup(index) {
 
   firstPopupContainer.appendChild(divlanguages);
 
-  const desktopPopup = document.createElement ('div');
+  const desktopPopup = document.createElement('div');
   desktopPopup.classList.add('desktopPopup');
   firstPopupContainer.appendChild(desktopPopup);
 
@@ -199,56 +199,56 @@ function displayLayoutPopup(index) {
 
 document.addEventListener('click', (e) => {
   switch (e.target.id) {
-    case "firstButtonPopup":
+    case 'firstButtonPopup':
       document.getElementById('firstPopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 1;
       displayLayoutPopup(0);
-    break;
-    case "secondButtonPopup":
+      break;
+    case 'secondButtonPopup':
       document.getElementById('firstPopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 2;
       displayLayoutPopup(1);
-    break;
-    case "thirdButtonPopup":
+      break;
+    case 'thirdButtonPopup':
       document.getElementById('firstPopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 3;
       displayLayoutPopup(2);
-    break;
-    case "fourthButtonPopup":
+      break;
+    case 'fourthButtonPopup':
       document.getElementById('firstPopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 4;
       displayLayoutPopup(3);
-    break;
-    case "fifthButtonPopup":
+      break;
+    case 'fifthButtonPopup':
       document.getElementById('firstPopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 5;
       displayLayoutPopup(4);
-    break;
-    case "sixthButtonPopup":
+      break;
+    case 'sixthButtonPopup':
       document.getElementById('firstPopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 6;
       displayLayoutPopup(5);
-    break;
-    case "seventhButtonPopup":
+      break;
+    case 'seventhButtonPopup':
       document.getElementById('firstPopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 7;
       displayLayoutPopup(6);
-    break;
-    case "eighthButtonPopup":
+      break;
+    case 'eighthButtonPopup':
       document.getElementById('firstPopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 8;
       displayLayoutPopup(7);
-    break;
+      break;
   }
-})
+});
 
 document.addEventListener('click', (e) => {
   if ((e.target && e.target.class === 'closePopup') && card === 1) {

@@ -357,6 +357,12 @@
     padding-right: 15rem;
   }
 
+  .containerMainImagen img {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .skills .language img {
     height: 1.2rem;
     width: 1.2rem;
@@ -518,11 +524,11 @@
     max-height: 53vh;
   }
 
-  .containerMainImagen img {
+  /* .containerMainImagen img {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
-  }
+  } */
 
   .containerBottonPopup p {
     margin-top: 3rem;

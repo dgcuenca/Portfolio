@@ -248,12 +248,12 @@
   padding-top: 1rem;
 }
 
-.skills .language > span {
+.skills .language>span {
   height: 1.8rem;
   width: 1.8rem;
 }
 
-.skills .language > img {
+.skills .language>img {
   height: 100%;
   width: 100%;
 }
@@ -280,12 +280,12 @@
   line-height: 4.4rem;
 }
 
-.skills .frameworks > span {
+.skills .frameworks>span {
   height: 1.8rem;
   width: 1.8rem;
 }
 
-.skills .frameworks > img {
+.skills .frameworks>img {
   height: 100%;
   width: 100%;
 }
@@ -312,12 +312,12 @@
   line-height: 4.4rem;
 }
 
-.skills .abilities > span {
+.skills .abilities>span {
   height: 1.8rem;
   width: 1.8rem;
 }
 
-.skills .abilities > img {
+.skills .abilities>img {
   height: 100%;
   width: 100%;
 }
@@ -371,8 +371,8 @@
 }
 
 .overlayOn {
-backdrop-filter: blur(1rem) ;
-z-index: 1;
+  backdrop-filter: blur(1rem);
+  z-index: 1;
 }
 
 .containerHeadPopup {
@@ -398,3 +398,21 @@ z-index: 1;
   margin-right: 1.5rem;
 }
 
+.containerLanguages {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 5rem;
+  margin-left: 1rem;
+}
+
+.containerLanguages button {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  color: #3c3a39;
+  background-color: white;
+  padding: 1rem 0.5rem;
+  border: #8993a4 solid 0.1rem;
+}

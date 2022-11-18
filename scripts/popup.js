@@ -31,20 +31,25 @@ function displayLayoutPopup() {
   divimg.appendChild(img);
   firstPopupContainer.appendChild(div);
 
+  const divlanguages = document.createElement('div');
+  divlanguages.classList.add('containerLanguages');
+
   const language1 = document.createElement('button');
   language1.textContent = `${dataPopup[0].language1}`;
   language1.classList.add('butoompopup');
-  firstPopupContainer.appendChild(language1);
+  divlanguages.appendChild(language1);
 
   const language2 = document.createElement('button');
   language2.textContent = `${dataPopup[0].language2}`;
   language2.classList.add('butoompopup');
-  firstPopupContainer.appendChild(language2);
+  divlanguages.appendChild(language2);
 
   const language3 = document.createElement('button');
   language3.textContent = `${dataPopup[0].language3}`;
   language3.classList.add('butoompopup');
-  firstPopupContainer.appendChild(language3);
+  divlanguages.appendChild(language3);
+
+  firstPopupContainer.appendChild(divlanguages)
 
   const image = document.createElement('img');
   image.src = `${dataPopup[0].image}`;

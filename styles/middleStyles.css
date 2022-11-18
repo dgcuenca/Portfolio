@@ -353,9 +353,9 @@
   display: flex;
   flex-direction: column;
   position: fixed;
-  width: 90%;
-  height: 90vh;
-  transform: translate(5%, 8%);
+  width: 95%;
+  height: 89vh;
+  transform: translate(2.5%, 8%);
   z-index: 2;
   background-color: white;
   border: #e05304 0.5rem solid;
@@ -367,15 +367,12 @@
   left: 0;
   right: 0;
   bottom: 0;
-
-  /* background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0; */
   pointer-events: none;
 }
 
 .overlayOn {
-  /* opacity: 1 !important; */
-  filter: blur(10px);
+backdrop-filter: blur(1rem) ;
+z-index: 1;
 }
 
 .containerHeadPopup {
@@ -390,17 +387,14 @@
   font-size: 3.2rem;
   line-height: 4.4rem;
   color: #172b4d;
-  margin-top: 10px;
+  margin-top: 1.2rem;
+  margin-left: 1rem;
 }
 
 .containerHeadPopup div {
-  width: 30px;
-  height: 30px;
-  margin-top: 17px;
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1.8rem;
+  margin-right: 1.5rem;
 }
 
-.butoompopup {
-  background: #fff;
-  border: 1px solid #ebecf0;
-  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-}

@@ -248,12 +248,12 @@
   padding-top: 1rem;
 }
 
-.skills .language>span {
+.skills .language > span {
   height: 1.8rem;
   width: 1.8rem;
 }
 
-.skills .language>img {
+.skills .language > img {
   height: 100%;
   width: 100%;
 }
@@ -280,12 +280,12 @@
   line-height: 4.4rem;
 }
 
-.skills .frameworks>span {
+.skills .frameworks > span {
   height: 1.8rem;
   width: 1.8rem;
 }
 
-.skills .frameworks>img {
+.skills .frameworks > img {
   height: 100%;
   width: 100%;
 }
@@ -312,12 +312,12 @@
   line-height: 4.4rem;
 }
 
-.skills .abilities>span {
+.skills .abilities > span {
   height: 1.8rem;
   width: 1.8rem;
 }
 
-.skills .abilities>img {
+.skills .abilities > img {
   height: 100%;
   width: 100%;
 }
@@ -481,8 +481,6 @@
 }
 
 .liveIcon,
-.sourceIcon
-{
+.sourceIcon {
   margin-top: 0.6rem;
 }
-

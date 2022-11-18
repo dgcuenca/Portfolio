@@ -1,6 +1,6 @@
 const dataPopup = [
   {
-    close_icon: '../icons/closeIcon.png',
+    closeIcon: '../icons/closeIcon.png',
     title: 'Multi Post Stories',
     language1: 'Html',
     language2: 'Bootstrap',
@@ -21,7 +21,7 @@ function displayLayoutPopup() {
   const h2 = document.createElement('h2');
   h2.textContent = `${dataPopup[0].title}`;
   const img = document.createElement('img');
-  img.src = `${dataPopup[0].close_icon}`;
+  img.src = `${dataPopup[0].closeIcon}`;
   img.class = 'closePopup';
 
   const div = document.createElement('div');
@@ -73,14 +73,29 @@ function displayLayoutPopup() {
   const divSee = document.createElement('div');
   divbottonPopup.appendChild(divSee);
 
-
   const btnSeelive = document.createElement('button');
   btnSeelive.textContent = `${dataPopup[0].btnSeelive}`;
   divSee.appendChild(btnSeelive);
 
+  const spanLive = document.createElement('span');
+  spanLive.classList.add('liveIcon');
+  btnSeelive.appendChild(spanLive);
+
+  const imgSpan = document.createElement('img');
+  imgSpan.src = `${dataPopup[0].iconSeelive}`;
+  spanLive.appendChild(imgSpan);
+
   const btnSeeSource = document.createElement('button');
   btnSeeSource.textContent = `${dataPopup[0].btnSeeSource}`;
   divSee.appendChild(btnSeeSource);
+
+  const spanSource = document.createElement('span');
+  spanSource.classList.add('sourceIcon');
+  btnSeeSource.appendChild(spanSource);
+
+  const imgSource = document.createElement('img');
+  imgSource.src = `${dataPopup[0].iconSeeSource}`;
+  spanSource.appendChild(imgSource);
 }
 
 const firstButtonPopup = document.getElementById('firstButtonPopup');

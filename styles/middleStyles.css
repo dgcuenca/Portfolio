@@ -424,8 +424,12 @@
 }
 
 .containerMainImagen img {
+  max-width: 32rem;
   width: 100%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .containerBottonPopup {
@@ -444,6 +448,37 @@
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: #344563;
-  flex-grow: 1; 
+  flex-grow: 1;
+}
+
+.containerBottonPopup > div {
+  margin-bottom: 1.7rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.containerBottonPopup button {
+  flex: 1;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: #ff6b00;
+  border: none;
+
+}
+
+.liveIcon,
+.sourceIcon
+{
+  margin-top: 0.6rem;
 }
 

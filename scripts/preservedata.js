@@ -1,7 +1,6 @@
 const fullname = document.getElementById('name');
 const email = document.getElementById('formMail');
 const text = document.getElementById('formMessage');
-const form = document.getElementById('signup');
 
 const formData = {
   userName: '', userEmail: '', text: '',

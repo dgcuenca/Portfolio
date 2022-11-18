@@ -428,3 +428,22 @@
   height: auto;
 }
 
+.containerBottonPopup {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.containerBottonPopup p {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #344563;
+  flex-grow: 1; 
+}
+

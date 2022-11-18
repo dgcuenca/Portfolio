@@ -416,3 +416,15 @@
   padding: 1rem 0.5rem;
   border: #8993a4 solid 0.1rem;
 }
+
+.containerMainImagen {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.containerMainImagen img {
+  width: 100%;
+  height: auto;
+}
+

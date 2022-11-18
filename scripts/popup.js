@@ -51,9 +51,14 @@ function displayLayoutPopup() {
 
   firstPopupContainer.appendChild(divlanguages)
 
+  const divmainImagen = document.createElement('div');
+  divmainImagen.classList.add('containerMainImagen');
+
   const image = document.createElement('img');
   image.src = `${dataPopup[0].image}`;
-  firstPopupContainer.appendChild(image);
+  divmainImagen.appendChild(image);
+
+  firstPopupContainer.appendChild(divmainImagen);
 
   const p = document.createElement('p');
   p.textContent = `${dataPopup[0].textmulti}`;

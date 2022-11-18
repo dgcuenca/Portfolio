@@ -144,7 +144,11 @@ function displayLayoutPopup(index) {
   language3.classList.add('butoompopup');
   divlanguages.appendChild(language3);
 
-  firstPopupContainer.appendChild(divlanguages)
+  firstPopupContainer.appendChild(divlanguages);
+
+  const desktopPopup = document.createElement ('div');
+  desktopPopup.classList.add('desktopPopup');
+  firstPopupContainer.appendChild(desktopPopup);
 
   const divmainImagen = document.createElement('div');
   divmainImagen.classList.add('containerMainImagen');
@@ -153,11 +157,11 @@ function displayLayoutPopup(index) {
   image.src = `${dataPopup[index].image}`;
   divmainImagen.appendChild(image);
 
-  firstPopupContainer.appendChild(divmainImagen);
+  desktopPopup.appendChild(divmainImagen);
 
   const divbottonPopup = document.createElement('div');
   divbottonPopup.classList.add('containerBottonPopup');
-  firstPopupContainer.appendChild(divbottonPopup);
+  desktopPopup.appendChild(divbottonPopup);
 
   const p = document.createElement('p');
   p.textContent = `${dataPopup[index].textmulti}`;

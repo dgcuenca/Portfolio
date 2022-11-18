@@ -1,4 +1,5 @@
 @media (min-width: 768px) {
+
   /* First Section */
   .firstSection {
     width: 100%;
@@ -480,4 +481,64 @@
   .finalSeparator {
     display: none;
   }
+
+  /* Pop Up */
+
+  .show2 {
+    width: 85%;
+    height: 75vh;
+    transform: translate(7%, 13%);
+  }
+
+  .containerHeadPopup h2 {
+    line-height: 3.5rem;
+    margin-left: 2rem;
+  }
+
+
+  .containerLanguages {
+    margin-top: 0.3rem;
+    margin-left: 2rem;
+  }
+
+  .containerLanguages button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .desktopPopup {
+    flex-direction: row;
+  }
+
+  .containerMainImagen {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    flex: 1;
+    min-width: 50%;
+    max-height: 53vh;
+  }
+
+  .containerMainImagen img {
+    max-width: 100%;
+    margin-left: none;
+    margin-right: none;
+  }
+
+  .containerBottonPopup p {
+    margin-top: 3rem;
+    margin-right: 2rem;
+  }  
+
+  .containerBottonPopup > div {
+    margin-right: 2rem;
+  }
+
+  .containerBottonPopup button {
+    justify-content: start;
+    flex: 0 1 auto;
+  }
+
+
 }

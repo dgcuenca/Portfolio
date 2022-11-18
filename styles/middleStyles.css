@@ -416,6 +416,12 @@
   border: #8993a4 solid 0.1rem;
 }
 
+.desktopPopup {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .containerMainImagen {
   margin-top: 2rem;
   margin-left: 1rem;

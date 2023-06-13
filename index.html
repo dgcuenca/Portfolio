@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./styles/defaultStyle.css">
 	<link rel="stylesheet" href="./styles/generalStyle.css">
-	<link rel="stylesheet" href="./styles/firstStyles.css">
+	<link rel="stylesheet" href="./styles/welcomeStyles.css">
 	<link rel="stylesheet" href="./styles/middleStyles.css">
 	<link rel="stylesheet" href="./styles/formStyles.css">
 	<link rel="stylesheet" href="./styles/desktop.css">
@@ -24,14 +24,14 @@
 
 <body>
 	<div id="overlay"></div>
-	<div id="firstPopupContainer" class="popupContainer"></div>
-	<div class="firstSection">
+	<div id="welcomePopupContainer" class="popupContainer"></div>
+	<div class="welcomeSection">
 		<header class="header">
 			<ul class="toolbar">
 				<li class="toolbarMobile"><a href="#">Diego Cuenca</a></li>
-				<li class="toolbarDesktop pushright">Portfolio</li>
-				<li class="toolbarDesktop">About</li>
-				<li class="toolbarDesktop">Contact</li>
+				<li class="toolbarDesktop pushright"><a href="#portfolioSection">Portfolio</a></li>
+				<li class="toolbarDesktop"><a href="#aboutSection">About</a></li>
+				<li class="toolbarDesktop"><a href="#contactSection">Contact</a></li>
 				<li class="toolbarDesktop">
 					<img src="./icons/desktop/mail.png" alt="mailIcon">
 				</li>
@@ -51,7 +51,7 @@
 		<div class="leftMedia">
 			<section class="headline">
 				<h1>Hey There. </br>I’m Diego</h1>
-				<h2>I am a Software Developer</h2>
+				<h2>I am a FullStack Software Developer</h2>
 				<p>I can help you build a product , feature or website Look through some of my work and experience! If
 					you like what you see and have a project you need coded,
 					don’t hestiate to contact me.
@@ -61,9 +61,6 @@
 				<ul class="media">
 					<li><img class="iconmediaUp" src="./icons/Git.png" alt="Github Icon"></li>
 					<li><img class="iconmediaUp" src="./icons/Linkedin.png" alt="LinkedIn Icon"></li>
-					<li><img class="iconmediaUp" src="./icons/D2.png" alt="D2 Icon"></li>
-					<li><img class="iconmediaUp" src="./icons/Twitter.png" alt="Twitter Icon"></li>
-					<li><img class="iconmediaUp" src="./icons/Microverse.png" alt="Microverse Icon"></li>
 				</ul>
 			</footer>
 			<div class="background"></div>
@@ -95,7 +92,7 @@
 							</ul>
 						</footer>
 						<div>
-							<button type="button" id="firstButtonPopup" class="footerTopButton">See Project</button>
+							<button type="button" id="welcomeButtonPopup" class="footerTopButton">See Project</button>
 						</div>
 					</div>
 				</div>
@@ -284,14 +281,14 @@
 			<div class="skills">
 				<ul class="language">
 					<div><span><img src="./icons/Diamond.png" alt="Diamond Icon"></span> Language</div>
-					<li class="first">Javascript</li>
+					<li class="welcome">Javascript</li>
 					<li>Ruby</li>
 					<li>Html</li>
 					<li>Css</li>
 				</ul>
 				<ul class="frameworks">
 					<div><span><img src="./icons/Rectangle .png" alt="Rectangle Icon"></span> Frameworks</div>
-					<li class="first">Bootstrap</li>
+					<li class="welcome">Bootstrap</li>
 					<li>Ruby on Rails</li>
 					<li>RSPec</li>
 					<li>CapyBara</li>
@@ -299,7 +296,7 @@
 				</ul>
 				<ul class="abilities">
 					<div><span><img src="./icons/Circle.png" alt="Circle Icon"></span> Skills</div>
-					<li class="first">Codekit</li>
+					<li class="welcome">Codekit</li>
 					<li>Github</li>
 					<li>Codepen</li>
 					<li>Gitlab</li>

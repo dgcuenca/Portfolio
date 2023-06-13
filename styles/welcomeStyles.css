@@ -1,7 +1,7 @@
-.firstSection {
+.welcomeSection {
   height: 100vh;
   width: 100%;
-  background-color: #1c1a19;
+  background-color: var(--color-primary);
   position: relative;
   padding-bottom: 60rem;
 }
@@ -11,7 +11,7 @@
   padding-right: 3rem;
   display: flex;
   justify-content: space-between;
-  background: #3c3a39;
+  background-color: var(--color-primary);
 }
 
 .toolbarMobile {
@@ -19,10 +19,13 @@
   font-style: normal;
   font-size: 1.8rem;
   font-weight: 700;
-  color: white;
-  margin-top: 5rem;
+  margin-top: 5.3rem;
   margin-bottom: 1.2rem;
   line-height: 2rem;
+}
+
+.toolbarMobile nav img {
+  margin-top: -0.3rem;
 }
 
 .noShow {
@@ -37,7 +40,6 @@
 }
 
 .noShow a {
-  color: #fff5e1;
   padding: 1.2rem 1.6rem;
   text-decoration: none;
   display: block;
@@ -57,7 +59,7 @@
 .noShow .btnx {
   display: flex;
   justify-content: flex-end;
-  padding: 5%;
+  padding: 11.5% 8%;
   border-bottom: none;
 }
 
@@ -69,7 +71,7 @@
 .background {
   background-image: url(../backgrounds/Illustration.png);
   background-repeat: no-repeat;
-  background-position: right 0% bottom 40%;
+  background-position: right 0% bottom 10%;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -88,32 +90,11 @@
   gap: 1.2rem;
 }
 
-.headline h1 {
-  color: #ff6b00;
-  line-height: 6rem;
-  font-size: 5.5rem;
-}
-
-.headline h2 {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 3rem;
-  font-size: 2.4rem;
-  color: #fff5e1;
-}
-
-.headline p {
-  color: #fff;
-}
-
 .media {
   display: flex;
-  margin-left: 2.4rem;
-  gap: 2rem;
+  margin-left: 5.4rem;
+  gap: 2.5rem;
 }
-
-/* Desktop */
 
 .toolbarDesktop {
   display: none;

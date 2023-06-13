@@ -1,13 +1,13 @@
 @media (min-width: 768px) {
-  /* First Section */
-  .firstSection {
+  /* welcome Section */
+  .welcomeSection {
     width: 100%;
     display: flex;
     flex-direction: column;
     background-image: none;
   }
 
-  .firstSection .header {
+  .welcomeSection .header {
     flex: 1;
   }
 

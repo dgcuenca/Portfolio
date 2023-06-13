@@ -109,8 +109,8 @@ const dataPopup = [
 let card = 0;
 
 function displayLayoutPopup(index) {
-  const firstPopupContainer = document.getElementById('firstPopupContainer');
-  firstPopupContainer.replaceChildren();
+  const welcomePopupContainer = document.getElementById('welcomePopupContainer');
+  welcomePopupContainer.replaceChildren();
   const h2 = document.createElement('h2');
   h2.textContent = `${dataPopup[index].title}`;
   const img = document.createElement('img');
@@ -124,7 +124,7 @@ function displayLayoutPopup(index) {
   const divimg = document.createElement('div');
   div.appendChild(divimg);
   divimg.appendChild(img);
-  firstPopupContainer.appendChild(div);
+  welcomePopupContainer.appendChild(div);
 
   const divlanguages = document.createElement('div');
   divlanguages.classList.add('containerLanguages');
@@ -144,11 +144,11 @@ function displayLayoutPopup(index) {
   language3.classList.add('butoompopup');
   divlanguages.appendChild(language3);
 
-  firstPopupContainer.appendChild(divlanguages);
+  welcomePopupContainer.appendChild(divlanguages);
 
   const desktopPopup = document.createElement('div');
   desktopPopup.classList.add('desktopPopup');
-  firstPopupContainer.appendChild(desktopPopup);
+  welcomePopupContainer.appendChild(desktopPopup);
 
   const divmainImagen = document.createElement('div');
   divmainImagen.classList.add('containerMainImagen');
@@ -199,50 +199,50 @@ function displayLayoutPopup(index) {
 
 document.addEventListener('click', (e) => {
   switch (e.target.id) {
-    case 'firstButtonPopup':
-      document.getElementById('firstPopupContainer').classList.toggle('show2');
+    case 'welcomeButtonPopup':
+      document.getElementById('welcomePopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 1;
       displayLayoutPopup(0);
       break;
     case 'secondButtonPopup':
-      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('welcomePopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 2;
       displayLayoutPopup(1);
       break;
     case 'thirdButtonPopup':
-      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('welcomePopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 3;
       displayLayoutPopup(2);
       break;
     case 'fourthButtonPopup':
-      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('welcomePopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 4;
       displayLayoutPopup(3);
       break;
     case 'fifthButtonPopup':
-      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('welcomePopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 5;
       displayLayoutPopup(4);
       break;
     case 'sixthButtonPopup':
-      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('welcomePopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 6;
       displayLayoutPopup(5);
       break;
     case 'seventhButtonPopup':
-      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('welcomePopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 7;
       displayLayoutPopup(6);
       break;
     case 'eighthButtonPopup':
-      document.getElementById('firstPopupContainer').classList.toggle('show2');
+      document.getElementById('welcomePopupContainer').classList.toggle('show2');
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 8;
       displayLayoutPopup(7);
@@ -252,56 +252,56 @@ document.addEventListener('click', (e) => {
 
 document.addEventListener('click', (e) => {
   if ((e.target && e.target.class === 'closePopup') && card === 1) {
-    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('welcomePopupContainer').classList.toggle('show2');
     document.getElementById('overlay').classList.toggle('overlayOn');
   }
 });
 
 document.addEventListener('click', (e) => {
   if ((e.target && e.target.class === 'closePopup') && card === 2) {
-    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('welcomePopupContainer').classList.toggle('show2');
     document.getElementById('overlay').classList.toggle('overlayOn');
   }
 });
 
 document.addEventListener('click', (e) => {
   if ((e.target && e.target.class === 'closePopup') && card === 3) {
-    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('welcomePopupContainer').classList.toggle('show2');
     document.getElementById('overlay').classList.toggle('overlayOn');
   }
 });
 
 document.addEventListener('click', (e) => {
   if ((e.target && e.target.class === 'closePopup') && card === 4) {
-    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('welcomePopupContainer').classList.toggle('show2');
     document.getElementById('overlay').classList.toggle('overlayOn');
   }
 });
 
 document.addEventListener('click', (e) => {
   if ((e.target && e.target.class === 'closePopup') && card === 5) {
-    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('welcomePopupContainer').classList.toggle('show2');
     document.getElementById('overlay').classList.toggle('overlayOn');
   }
 });
 
 document.addEventListener('click', (e) => {
   if ((e.target && e.target.class === 'closePopup') && card === 6) {
-    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('welcomePopupContainer').classList.toggle('show2');
     document.getElementById('overlay').classList.toggle('overlayOn');
   }
 });
 
 document.addEventListener('click', (e) => {
   if ((e.target && e.target.class === 'closePopup') && card === 7) {
-    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('welcomePopupContainer').classList.toggle('show2');
     document.getElementById('overlay').classList.toggle('overlayOn');
   }
 });
 
 document.addEventListener('click', (e) => {
   if ((e.target && e.target.class === 'closePopup') && card === 8) {
-    document.getElementById('firstPopupContainer').classList.toggle('show2');
+    document.getElementById('welcomePopupContainer').classList.toggle('show2');
     document.getElementById('overlay').classList.toggle('overlayOn');
   }
 });

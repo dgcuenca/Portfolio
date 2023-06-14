@@ -12,6 +12,9 @@
   display: flex;
   justify-content: space-between;
   background-color: var(--color-primary);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .toolbarMobile {
@@ -83,17 +86,25 @@
   margin-right: 0.5rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  margin-top: 6rem;
+  margin-top: 4rem;
   margin-bottom: 2.2rem;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
 }
 
+.headline h1 {
+  margin-bottom: 2rem;
+}
+
 .media {
   display: flex;
   margin-left: 5.4rem;
   gap: 2.5rem;
+}
+
+.iconmediaUp:hover {
+  background-color: var(--ultimate-color);
 }
 
 .toolbarDesktop {

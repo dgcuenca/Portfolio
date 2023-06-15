@@ -70,26 +70,9 @@
 }
 
 .footerTopButton {
-  background-color: var(--action-color);
   padding: 1.2rem;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 1.7rem;
   line-height: 2.4rem;
-  color: #fff;
-  border: 0;
-}
-
-.footerTopButton:hover {
-  background-color: #fff5e1;
-  border: 1px solid #f55800;
-  color: #f55800;
-}
-
-.footerTopButton:active {
-  background-color: #e05304;
-  color: #f4f1f0;
 }
 
 .cards {
@@ -153,41 +136,18 @@
 
 .containerBottonPopup button {
   flex: 1;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 1.7rem;
   line-height: 2.4rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
   letter-spacing: 0.03em;
-  color: #fff;
-  background: #ff6b00;
-  border: none;
 }
 
 .footerCards button {
-  background-color: #ff6b00;
   padding: 1.2rem;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 1.7rem;
   line-height: 2.4rem;
-  color: #fff;
-  border: none;
-}
-
-.footerCards button:hover {
-  background-color: #fff5e1;
-  border: 0.1rem solid #f55800;
-  color: #f55800;
-}
-
-.footerCards button:active {
-  background-color: #e05304;
-  color: #f4f1f0;
 }
 
 .aboutSection {
@@ -227,27 +187,10 @@
 }
 
 .aboutMeButton {
-  background-color: #ff6b00;
   padding: 1.2rem;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 1.7rem;
   line-height: 2.4rem;
-  color: #fff;
-  border: none;
   margin-bottom: 20.9rem;
-}
-
-.aboutMeButton:hover {
-  background-color: #fff5e1;
-  border: 0.1rem solid #f55800;
-  color: #f55800;
-}
-
-.aboutMeButton:active {
-  background-color: #e05304;
-  color: #f4f1f0;
 }
 
 .skills {

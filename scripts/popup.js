@@ -1,16 +1,19 @@
 const dataPopup = [
   {
-    closeIcon: '../icons/closeIcon.png',
-    title: 'Multi Post Storie 1',
-    language1: 'Html',
-    language2: 'Bootstrap',
+    closeIcon: './icons/closeIcon.png',
+    title: 'Rent Cars',
+    language1: 'React',
+    language2: 'PostgreSQL',
     language3: 'Ruby on rails',
-    image: '../images/mobilePopup.png',
-    textmulti: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ",
+    image: './ScreenShots/CarRental1.png',
+    textmulti: "We divided this project into two repositories: one for backend development with Ruby on Rails and the other for frontend development with React/Redux.\
+    The app is responsive. Moreover, the frontend application consumes data from the backend app, which provides user authentication and authorization functionalities.",
     btnSeelive: 'See Live',
-    iconSeelive: '../icons/live.png',
+    iconSeelive: './icons/live.png',
+    urlSeelive: 'https://github.com/gjuliao/car_app_backend',
     btnSeeSource: 'See Source',
-    iconSeeSource: '../icons/source.png',
+    iconSeeSource: './icons/source.png',
+    urlSeeSource: 'https://github.com/gjuliao/car_app_backend',
   },
   {
     closeIcon: '../icons/closeIcon.png',
@@ -129,17 +132,17 @@ function displayLayoutPopup(index) {
   const divlanguages = document.createElement('div');
   divlanguages.classList.add('containerLanguages');
 
-  const language1 = document.createElement('button');
+  const language1 = document.createElement('div');
   language1.textContent = `${dataPopup[index].language1}`;
   language1.classList.add('butoompopup');
   divlanguages.appendChild(language1);
 
-  const language2 = document.createElement('button');
+  const language2 = document.createElement('div');
   language2.textContent = `${dataPopup[index].language2}`;
   language2.classList.add('butoompopup');
   divlanguages.appendChild(language2);
 
-  const language3 = document.createElement('button');
+  const language3 = document.createElement('div');
   language3.textContent = `${dataPopup[index].language3}`;
   language3.classList.add('butoompopup');
   divlanguages.appendChild(language3);
@@ -171,25 +174,29 @@ function displayLayoutPopup(index) {
   divbottonPopup.appendChild(divSee);
 
   const btnSeelive = document.createElement('button');
-  btnSeelive.textContent = `${dataPopup[index].btnSeelive}`;
+  const linkSeelive = document.createElement('a');
+  linkSeelive.textContent = `${dataPopup[index].btnSeelive}`;
+  linkSeelive.href = `${dataPopup[index].urlSeelive}`;
+  linkSeelive.target = "_blank";
+  btnSeelive.appendChild(linkSeelive);
   divSee.appendChild(btnSeelive);
-
   const spanLive = document.createElement('span');
   spanLive.classList.add('liveIcon');
-  btnSeelive.appendChild(spanLive);
-
+  linkSeelive.appendChild(spanLive);
   const imgSpan = document.createElement('img');
   imgSpan.src = `${dataPopup[index].iconSeelive}`;
   spanLive.appendChild(imgSpan);
 
   const btnSeeSource = document.createElement('button');
-  btnSeeSource.textContent = `${dataPopup[index].btnSeeSource}`;
+  const linkSeeSource = document.createElement('a');
+  linkSeeSource.textContent = `${dataPopup[index].btnSeeSource}`;
+  linkSeeSource.href = `${dataPopup[index].urlSeeSource}`;
+  linkSeeSource.target = "_blank";
+  btnSeeSource.appendChild(linkSeeSource);
   divSee.appendChild(btnSeeSource);
-
   const spanSource = document.createElement('span');
   spanSource.classList.add('sourceIcon');
-  btnSeeSource.appendChild(spanSource);
-
+  linkSeeSource.appendChild(spanSource);
   const imgSource = document.createElement('img');
   imgSource.src = `${dataPopup[index].iconSeeSource}`;
   spanSource.appendChild(imgSource);

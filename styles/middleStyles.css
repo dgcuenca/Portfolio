@@ -139,16 +139,16 @@
   flex-direction: column;
 }
 
-.containerLanguages button {
+.containerLanguages div {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.3rem;
   line-height: 1.6rem;
-  color: #3c3a39;
+  color: var(--color-primary);
   background-color: white;
   padding: 1rem 0.5rem;
-  border: #8993a4 solid 0.1rem;
+  border: var(--ultimate-color) solid 0.1rem;
 }
 
 .containerBottonPopup button {
@@ -412,12 +412,9 @@
 }
 
 .containerHeadPopup h2 {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 3.2rem;
-  line-height: 4.4rem;
-  color: #172b4d;
+  line-height: calc( 3.2rem * 1.4);
+  color: var(--color-primary);
   margin-top: 1.2rem;
   margin-left: 1rem;
 }
@@ -425,28 +422,16 @@
 .containerHeadPopup div {
   width: 3rem;
   height: 3rem;
-  margin-top: 1.8rem;
+  margin-top: 1rem;
   margin-right: 1.5rem;
 }
 
 .containerLanguages {
   display: flex;
   gap: 0.8rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-left: 1rem;
 }
-
-/* .containerLanguages button {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.3rem;
-  line-height: 1.6rem;
-  color: #3c3a39;
-  background-color: white;
-  padding: 1rem 0.5rem;
-  border: #8993a4 solid 0.1rem;
-} */
 
 .desktopPopup {
   display: flex;
@@ -459,15 +444,6 @@
   margin-left: 1rem;
   margin-right: 1rem;
 }
-
-/* .containerMainImagen img {
-  max-width: 32rem;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 .containerBottonPopup {
   display: flex;
@@ -496,21 +472,12 @@
   gap: 1.2rem;
 }
 
-/* .containerBottonPopup button {
-  flex: 1;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.7rem;
-  line-height: 2.4rem;
+.containerBottonPopup a {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  letter-spacing: 0.03em;
-  color: #fff;
-  background: #ff6b00;
-  border: none;
-} */
+  gap: 3rem;
+  color: inherit;
+}
 
 .liveIcon,
 .sourceIcon {

@@ -26,7 +26,8 @@
   font-weight: 700;
   margin-top: 5.3rem;
   margin-bottom: 1.2rem;
-  line-height: 2rem;
+  line-height: calc( 1.2rem * 1.4);
+  ;
 }
 
 .toolbarMobile nav img {

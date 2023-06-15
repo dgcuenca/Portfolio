@@ -1,6 +1,7 @@
 .middleSection {
   width: 100%;
   height: auto;
+  background-color: var(--color-primary);
 }
 
 .worksSection {
@@ -17,41 +18,35 @@
 }
 
 .top h2 {
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 4rem;
-  line-height: 5.2rem;
+  line-height: calc( 4rem * 1.2);
   margin-top: 12rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
   text-align: center;
 }
 
 .line {
-  border-top: 0.1rem solid #212121;
+  border-top: 0.1rem solid var(--color-alt);
   min-height: 8rem;
+  margin-bottom: 1rem;
 }
 
-.yoga {
-  margin-bottom: 2.4rem;
-}
-
-.yoga img {
+.mainProyect img {
   width: 100%;
   height: auto;
+  border-radius: 1rem;
 }
 
 .contentTop h2 {
   margin-bottom: 1rem;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 3.2rem;
-  line-height: 4.4rem;
+  line-height: calc( 3.2rem * 1.2);
+  margin-top: 2rem;
 }
 
 .contentTop p {
-  font-family: 'Inter', sans-serif;
   margin-bottom: 1.2rem;
 }
 
@@ -65,7 +60,7 @@
 }
 
 .footerTop li {
-  border: 0.1rem #8993a4 solid;
+  border: 0.1rem var(--ultimate-color) solid;
   padding: 1rem 1.2rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -75,7 +70,7 @@
 }
 
 .footerTopButton {
-  background-color: #ff6b00;
+  background-color: var(--action-color);
   padding: 1.2rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;

@@ -44,3 +44,8 @@ button:active {
   background-color: var(--action-color);
   color: var(--ultimate-color);
 }
+
+li {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}

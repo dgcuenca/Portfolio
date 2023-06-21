@@ -1,9 +1,7 @@
 .welcomeSection {
-  height: 100vh;
-  width: 100%;
+  min-height: 100vh;
   background-color: var(--color-primary);
   padding-top: 8rem;
-  padding-bottom: 60rem;
 }
 
 .toolbar {
@@ -20,14 +18,11 @@
 }
 
 .toolbarMobile {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-size: 1.8rem;
   font-weight: 700;
   margin-top: 5.3rem;
   margin-bottom: 1.2rem;
   line-height: calc( 1.2rem * 1.4);
-  ;
 }
 
 .toolbarMobile nav img {

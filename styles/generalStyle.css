@@ -47,5 +47,9 @@ button:active {
 
 li {
   font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
 }

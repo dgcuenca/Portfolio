@@ -66,21 +66,25 @@
   padding: 1rem 1.2rem;
   font-weight: 500;
   font-size: 1.1rem;
-  line-height: 2rem;
+  line-height: calc( 1.1rem * 1.4);
 }
 
 .footerTopButton {
   padding: 1.2rem;
   font-size: 1.7rem;
-  line-height: 2.4rem;
+  line-height: calc( 1.7rem * 1.4);
+
 }
 
 .cards {
   display: flex;
   flex-direction: column;
+   height: 100vh;
+}
+
+.card1 {
   background-image: url(../backgrounds/Placeholder.png);
   background-size: cover;
-  height: 100vh;
 }
 
 .contentCards {
@@ -89,7 +93,7 @@
 
 .contentCards h1 {
   font-size: 3.2rem;
-  line-height: 4.4rem;
+  line-height: calc( 3.2rem * 1.2);
   color: #fff;
   margin: 8.4rem 1.6rem 1.2rem 1.6rem;
 }
@@ -113,7 +117,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 1.5rem;
-  line-height: 2rem;
+  line-height: calc( 1.5rem * 1.4);
   color: #fff;
 }
 
@@ -127,7 +131,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 1.3rem;
-  line-height: 1.6rem;
+  line-height: calc( 1.3rem * 1.4);
   color: var(--color-primary);
   background-color: white;
   padding: 1rem 0.5rem;

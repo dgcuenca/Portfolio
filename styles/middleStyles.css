@@ -52,20 +52,20 @@
 
 .footerTop {
   margin-bottom: 1.2rem;
+  max-width: 90vw;
 }
 
 .footerTop ul {
   display: flex;
-  gap: 1.2rem;
+  flex-shrink: 1;
+  gap: 1.25rem;
 }
 
 .footerTop li {
   border: 0.1rem var(--ultimate-color) solid;
   padding: 1rem 1.2rem;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   line-height: 2rem;
 }
 

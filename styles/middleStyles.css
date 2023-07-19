@@ -82,6 +82,10 @@
 
 .contentCards {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .contentCards h2 {
@@ -95,10 +99,12 @@
 }
 
 .imagenProyect {
-  width: 90vw;
+  width: 85vw;
   height: auto;
-  display: flex;
-  justify-content: center;
+}
+
+.imagenProyect img {
+  width: 100%;
 }
 
 .contentCards ul {

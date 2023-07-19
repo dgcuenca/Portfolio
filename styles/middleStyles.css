@@ -23,7 +23,6 @@
   line-height: calc( 4rem * 1.2);
   margin-top: 12rem;
   padding-bottom: 1.5rem;
-  text-align: center;
 }
 
 .line {
@@ -79,42 +78,40 @@
 .cards {
   display: flex;
   flex-direction: column;
-   height: 100vh;
-}
-
-.card1 {
-  background-image: url(../backgrounds/Placeholder.png);
-  background-size: cover;
 }
 
 .contentCards {
   flex-grow: 1;
 }
 
-.contentCards h1 {
-  font-size: 3.2rem;
-  line-height: calc( 3.2rem * 1.2);
+.contentCards h2 {
   color: #fff;
-  margin: 8.4rem 1.6rem 1.2rem 1.6rem;
+  margin: 6.4rem 1.6rem 1.2rem 1.6rem;
 }
 
 .contentCards p {
-  font-family: 'Inter', sans-serif;
   color: #fff;
   margin: 0 1.6rem 1.2rem 1.6rem;
 }
 
+.imagenProyect {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
 .contentCards ul {
   display: flex;
-  margin: 0 1.6rem 2.2rem 1.6rem;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
   gap: 1.2rem;
 }
 
 .contentCards li {
-  background-color: rgba(255, 255, 255, 0.24);
+  border: 0.1rem var(--ultimate-color) solid;
   padding: 1rem 1.2rem;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 1.5rem;
   line-height: calc( 1.5rem * 1.4);

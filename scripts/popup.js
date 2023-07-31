@@ -90,33 +90,6 @@ const dataPopup = [
     iconSeeSource: '../icons/source.png',
     urlSeeSource: 'https://github.com/dgcuenca/Blog-app',
   },
-  {
-    closeIcon: '../icons/closeIcon.png',
-    title: 'Multi Post Storie 7',
-    language1: 'Html',
-    language2: 'Bootstrap',
-    language3: 'Ruby on rails',
-    image: '../images/mobilePopup.png',
-    textmulti: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ",
-    btnSeelive: 'See Live',
-    iconSeelive: '../icons/live.png',
-    btnSeeSource: 'See Source',
-    iconSeeSource: '../icons/source.png',
-  },
-  {
-    closeIcon: '../icons/closeIcon.png',
-    title: 'Multi Post Storie 8',
-    language1: 'Html',
-    language2: 'Bootstrap',
-    language3: 'Ruby on rails',
-    image: '../images/mobilePopup.png',
-    textmulti: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ",
-    btnSeelive: 'See Live',
-    iconSeelive: '../icons/live.png',
-    btnSeeSource: 'See Source',
-    iconSeeSource: '../icons/source.png',
-  },
-
 ];
 
 let card = 0;
@@ -251,18 +224,6 @@ document.addEventListener('click', (e) => {
       document.getElementById('overlay').classList.toggle('overlayOn');
       card = 6;
       displayLayoutPopup(5);
-      break;
-    case 'seventhButtonPopup':
-      document.getElementById('welcomePopupContainer').classList.toggle('show2');
-      document.getElementById('overlay').classList.toggle('overlayOn');
-      card = 7;
-      displayLayoutPopup(6);
-      break;
-    case 'eighthButtonPopup':
-      document.getElementById('welcomePopupContainer').classList.toggle('show2');
-      document.getElementById('overlay').classList.toggle('overlayOn');
-      card = 8;
-      displayLayoutPopup(7);
       break;
   }
 });

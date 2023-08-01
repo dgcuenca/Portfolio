@@ -57,14 +57,17 @@
 
   .toolbarDesktop {
     display: list-item;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: calc( 1.8rem * 1.1);
     font-weight: 700;
-    color: white;
+    color: var(--color-alt);
     margin-left: 24px;
     margin-right: 24px;
-    line-height: 24px;
+  }
+
+  .toolbarDesktop a {
+    color: inherit;
   }
 
   .mobileIconmenu {

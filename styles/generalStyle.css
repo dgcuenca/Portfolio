@@ -28,7 +28,7 @@ p {
 
 button {
   background-color: var(--action-color);
-  color: #fff;
+  color: var(--color-alt);
   font-family: 'Inter', sans-serif;
   border: none;
   font-style: normal;
@@ -36,7 +36,7 @@ button {
 }
 
 button:hover {
-  background-color: #fff5e1;
+  background-color: var(--color-alt);
   border: 0.1rem solid var(--action-color);
   color: var(--action-color);
 }

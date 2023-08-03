@@ -212,11 +212,13 @@
     min-height: 31rem;
     padding: 1rem;
   }
+  .contentCardsHeader {
+    flex-grow: 1;
+  }
 
   .imagenProyect {
     max-width: 25vw;
     max-height: 50vh;
-    border: 1px solid red;
   }
 
   .imagenProyect img {

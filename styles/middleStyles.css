@@ -1,14 +1,16 @@
 .middleSection {
   width: 100%;
   background-color: var(--color-primary);
+  border: 3px solid green;
 }
 
 .worksSection {
   display: grid;
-  grid-template-rows: auto repeat(6, 97vh);
+  grid-template-rows: auto repeat(6, 100%);
   margin-left: 2.4rem;
   margin-right: 2.4rem;
   grid-row-gap: 2.4rem;
+  border: 1px solid red;
 }
 
 .top {
@@ -159,6 +161,7 @@
 .aboutSection {
   width: 100%;
   background-color: var(--color-primary);
+  border: 1px solid blue;
 }
 
 .aboutSection .aboutContainer {

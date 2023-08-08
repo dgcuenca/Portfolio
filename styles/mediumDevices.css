@@ -202,14 +202,13 @@
 
   .cardsGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 1.8em;
   }
 
   .cards {
-    justify-content: end;
-    min-height: 31rem;
+    width: 40vw;
     padding: 1rem;
   }
   .contentCardsHeader {

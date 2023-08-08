@@ -3,8 +3,8 @@ h1 {
   font-style: normal;
   font-weight: 400;
   color: var(--action-color);
-  font-size: 5.5rem;
-  line-height: calc( 5.5rem * 1.2);
+  font-size: 13vmin;
+  line-height: calc( 13vmin * 1.2);
   letter-spacing: -0.1rem;
   text-align: center;
 }

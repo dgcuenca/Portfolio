@@ -39,6 +39,11 @@
   border: 0.1rem solid var(--ultimate-color);
 }
 
+.colorbox:focus {
+  border: 0.1rem solid var(--action-color);
+  outline: none
+}
+
 .colorbox::placeholder {
   color: #979493;
 }
@@ -54,6 +59,11 @@
   border: 0.1rem solid var(--ultimate-color);
   margin-top: 2.4rem;
   padding: 1.2rem;
+}
+
+#formMessage:focus {
+  border: 0.1rem solid var(--action-color);
+  outline: none
 }
 
 #formMessage::placeholder {

@@ -1,0 +1,14 @@
+@media (min-width: 992px) { 
+  /* Middle Section */
+  .cardsGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 3em;
+  }
+
+  .cards {
+    width: 25vw;
+    padding: 1rem;
+  }
+
+}

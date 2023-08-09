@@ -229,56 +229,7 @@ document.addEventListener('click', (e) => {
 });
 
 document.addEventListener('click', (e) => {
-  if ((e.target && e.target.class === 'closePopup') && card === 1) {
-    document.getElementById('welcomePopupContainer').classList.toggle('show2');
-    document.getElementById('overlay').classList.toggle('overlayOn');
-  }
-});
-
-document.addEventListener('click', (e) => {
-  if ((e.target && e.target.class === 'closePopup') && card === 2) {
-    document.getElementById('welcomePopupContainer').classList.toggle('show2');
-    document.getElementById('overlay').classList.toggle('overlayOn');
-  }
-});
-
-document.addEventListener('click', (e) => {
-  if ((e.target && e.target.class === 'closePopup') && card === 3) {
-    document.getElementById('welcomePopupContainer').classList.toggle('show2');
-    document.getElementById('overlay').classList.toggle('overlayOn');
-  }
-});
-
-document.addEventListener('click', (e) => {
-  if ((e.target && e.target.class === 'closePopup') && card === 4) {
-    document.getElementById('welcomePopupContainer').classList.toggle('show2');
-    document.getElementById('overlay').classList.toggle('overlayOn');
-  }
-});
-
-document.addEventListener('click', (e) => {
-  if ((e.target && e.target.class === 'closePopup') && card === 5) {
-    document.getElementById('welcomePopupContainer').classList.toggle('show2');
-    document.getElementById('overlay').classList.toggle('overlayOn');
-  }
-});
-
-document.addEventListener('click', (e) => {
-  if ((e.target && e.target.class === 'closePopup') && card === 6) {
-    document.getElementById('welcomePopupContainer').classList.toggle('show2');
-    document.getElementById('overlay').classList.toggle('overlayOn');
-  }
-});
-
-document.addEventListener('click', (e) => {
-  if ((e.target && e.target.class === 'closePopup') && card === 7) {
-    document.getElementById('welcomePopupContainer').classList.toggle('show2');
-    document.getElementById('overlay').classList.toggle('overlayOn');
-  }
-});
-
-document.addEventListener('click', (e) => {
-  if ((e.target && e.target.class === 'closePopup') && card === 8) {
+  if ((e.target && e.target.class === 'closePopup') ) {
     document.getElementById('welcomePopupContainer').classList.toggle('show2');
     document.getElementById('overlay').classList.toggle('overlayOn');
   }

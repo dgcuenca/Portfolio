@@ -72,6 +72,11 @@
     color: var(--action-color);
   }
 
+  .mailIcon:hover {
+    fill: var(--action-color);
+  }
+  
+
   .mobileIconmenu {
     display: none;
   }

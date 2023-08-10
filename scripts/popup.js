@@ -185,46 +185,23 @@ function displayLayoutPopup(index) {
   spanSource.appendChild(imgSource);
 }
 
-// Need to be improve in future //
-
 document.addEventListener('click', (e) => {
-  switch (e.target.id) {
-    case 'welcomeButtonPopup':
-      document.getElementById('welcomePopupContainer').classList.toggle('show2');
-      document.getElementById('overlay').classList.toggle('overlayOn');
-      card = 1;
-      displayLayoutPopup(0);
-      break;
-    case 'secondButtonPopup':
-      document.getElementById('welcomePopupContainer').classList.toggle('show2');
-      document.getElementById('overlay').classList.toggle('overlayOn');
-      card = 2;
-      displayLayoutPopup(1);
-      break;
-    case 'thirdButtonPopup':
-      document.getElementById('welcomePopupContainer').classList.toggle('show2');
-      document.getElementById('overlay').classList.toggle('overlayOn');
-      card = 3;
-      displayLayoutPopup(2);
-      break;
-    case 'fourthButtonPopup':
-      document.getElementById('welcomePopupContainer').classList.toggle('show2');
-      document.getElementById('overlay').classList.toggle('overlayOn');
-      card = 4;
-      displayLayoutPopup(3);
-      break;
-    case 'fifthButtonPopup':
-      document.getElementById('welcomePopupContainer').classList.toggle('show2');
-      document.getElementById('overlay').classList.toggle('overlayOn');
-      card = 5;
-      displayLayoutPopup(4);
-      break;
-    case 'sixthButtonPopup':
-      document.getElementById('welcomePopupContainer').classList.toggle('show2');
-      document.getElementById('overlay').classList.toggle('overlayOn');
-      card = 6;
-      displayLayoutPopup(5);
-      break;
+  const buttonIdToCardMapping = {
+    'welcomeButtonPopup': 0,
+    'secondButtonPopup': 1,
+    'thirdButtonPopup': 2,
+    'fourthButtonPopup': 3,
+    'fifthButtonPopup': 4,
+    'sixthButtonPopup': 5
+  };
+
+  const targetId = e.target.id;
+  const card = buttonIdToCardMapping[targetId];
+  if (card !== null && card !== undefined) {
+    document.getElementById('welcomePopupContainer').classList.toggle('show2');
+    document.getElementById('overlay').classList.toggle('overlayOn');
+    console.log(card)
+    displayLayoutPopup(card);
   }
 });
 

@@ -92,8 +92,8 @@
   }
 
   .headline h1 {
-    font-size: 6rem;
-    line-height: calc( 6rem * 1.3);
+    font-size: 10vmin;
+    line-height: calc( 10vmin * 1.3);
     color: var(--action-color);
     padding-top: 3rem;
   }
@@ -107,8 +107,8 @@
   }
 
   .headline p {
-    font-size: 2rem;
-    line-height: calc( 2rem * 1.1);
+    font-size: 1.8rem;
+    line-height: calc( 1.8rem * 1.1);
     color: var(--color-alt);
   }
 

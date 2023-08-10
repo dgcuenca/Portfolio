@@ -458,9 +458,4 @@
   .containerBottonPopup > div {
     margin-right: 2rem;
   }
-
-  .containerBottonPopup button {
-    justify-content: start;
-    flex: 0 1 auto;
-  }
 }

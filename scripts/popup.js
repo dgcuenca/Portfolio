@@ -200,7 +200,6 @@ document.addEventListener('click', (e) => {
   if (card !== null && card !== undefined) {
     document.getElementById('welcomePopupContainer').classList.toggle('show2');
     document.getElementById('overlay').classList.toggle('overlayOn');
-    console.log(card)
     displayLayoutPopup(card);
   }
 });

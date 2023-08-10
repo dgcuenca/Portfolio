@@ -148,6 +148,7 @@
   align-items: center;
   justify-content: space-around;
   letter-spacing: 0.03em;
+  padding: 0.2rem 0.5rem;
 }
 
 .footerCards button {

@@ -4,8 +4,6 @@
   .headline h1 {
     font-size: 14vmin;
     line-height: calc( 14vmin * 1.3);
-    color: var(--action-color);
-    padding-top: 3rem;
   }
 
   .cardsGrid {

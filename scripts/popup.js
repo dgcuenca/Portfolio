@@ -6,8 +6,8 @@ const dataPopup = [
     language2: 'PostgreSQL',
     language3: 'Ruby on rails',
     image: './ScreenShots/CarRental1.png',
-    textmulti: "We divided this project into two repositories: one for backend development with Ruby on Rails and the other for frontend development with React/Redux.\
-    The app is responsive. Moreover, the frontend application consumes data from the backend app, which provides user authentication and authorization functionalities.",
+    textmulti: 'We divided this project into two repositories: one for backend development with Ruby on Rails and the other for frontend development with React/Redux.\
+    The app is responsive. Moreover, the frontend application consumes data from the backend app, which provides user authentication and authorization functionalities.',
     btnSeelive: 'See Live',
     iconSeelive: './icons/live.png',
     urlSeelive: 'https://github.com/gjuliao/car_app_backend',
@@ -22,7 +22,7 @@ const dataPopup = [
     language2: 'CSS3',
     language3: 'JavaScript',
     image: './ScreenShots/ToDoList1.png',
-    textmulti: "I created a simple but complete web app to manage a list of to do tasks. I used web pack to bundle the app and local storage to preserve data",
+    textmulti: 'I created a simple but complete web app to manage a list of to do tasks. I used web pack to bundle the app and local storage to preserve data',
     btnSeelive: 'See Live',
     iconSeelive: '../icons/live.png',
     urlSeelive: 'https://dgcuenca.github.io/ToDoList/',
@@ -37,7 +37,7 @@ const dataPopup = [
     language2: 'SCSS',
     language3: 'JavaScript',
     image: './ScreenShots/NFT1.png',
-    textmulti: "To style this project I used Sass and Bootstrap, the website use semantic HTML and is focused on providing improved user accessibility.",
+    textmulti: 'To style this project I used Sass and Bootstrap, the website use semantic HTML and is focused on providing improved user accessibility.',
     btnSeelive: 'See Live',
     iconSeelive: '../icons/live.png',
     urlSeelive: 'https://dgcuenca.github.io/nftGallery/',
@@ -52,7 +52,7 @@ const dataPopup = [
     language2: 'React',
     language3: 'Redux',
     image: './ScreenShots/animeHub1.png',
-    textmulti: "I worked with API data in order to build a mobile web application to check a list of metrics and see the detail of those metrics in a page with a friendly URL generate dynamically.",
+    textmulti: 'I worked with API data in order to build a mobile web application to check a list of metrics and see the detail of those metrics in a page with a friendly URL generate dynamically.',
     btnSeelive: 'See Live',
     iconSeelive: '../icons/live.png',
     urlSeelive: 'https://reactcapstone.onrender.com/',
@@ -67,7 +67,7 @@ const dataPopup = [
     language2: 'React',
     language3: 'Redux',
     image: './ScreenShots/vehicle1.png',
-    textmulti: "This app consume data from a RAILS API that I developed collaborative in a previous project, I used RTK Querry to fetch the data",
+    textmulti: 'This app consume data from a RAILS API that I developed collaborative in a previous project, I used RTK Querry to fetch the data',
     btnSeelive: 'See Live',
     iconSeelive: '../icons/live.png',
     urlSeelive: 'https://github.com/dgcuenca/vehicles-rental-frontend',
@@ -82,7 +82,7 @@ const dataPopup = [
     language2: 'CSS3',
     language3: 'Rails',
     image: './ScreenShots/blog1.png',
-    textmulti: "I concentrate in give real life functionalities to this app, like authentication, authorizations",
+    textmulti: 'I concentrate in give real life functionalities to this app, like authentication, authorizations',
     btnSeelive: 'See Live',
     iconSeelive: '../icons/live.png',
     urlSeelive: 'https://github.com/dgcuenca/Blog-app',
@@ -92,7 +92,7 @@ const dataPopup = [
   },
 ];
 
-let card = 0;
+const card = 0;
 
 function displayLayoutPopup(index) {
   const welcomePopupContainer = document.getElementById('welcomePopupContainer');
@@ -160,7 +160,7 @@ function displayLayoutPopup(index) {
   const linkSeelive = document.createElement('a');
   linkSeelive.textContent = `${dataPopup[index].btnSeelive}`;
   linkSeelive.href = `${dataPopup[index].urlSeelive}`;
-  linkSeelive.target = "_blank";
+  linkSeelive.target = '_blank';
   btnSeelive.appendChild(linkSeelive);
   divSee.appendChild(btnSeelive);
   const spanLive = document.createElement('span');
@@ -174,7 +174,7 @@ function displayLayoutPopup(index) {
   const linkSeeSource = document.createElement('a');
   linkSeeSource.textContent = `${dataPopup[index].btnSeeSource}`;
   linkSeeSource.href = `${dataPopup[index].urlSeeSource}`;
-  linkSeeSource.target = "_blank";
+  linkSeeSource.target = '_blank';
   btnSeeSource.appendChild(linkSeeSource);
   divSee.appendChild(btnSeeSource);
   const spanSource = document.createElement('span');
@@ -187,12 +187,12 @@ function displayLayoutPopup(index) {
 
 document.addEventListener('click', (e) => {
   const buttonIdToCardMapping = {
-    'welcomeButtonPopup': 0,
-    'secondButtonPopup': 1,
-    'thirdButtonPopup': 2,
-    'fourthButtonPopup': 3,
-    'fifthButtonPopup': 4,
-    'sixthButtonPopup': 5
+    welcomeButtonPopup: 0,
+    secondButtonPopup: 1,
+    thirdButtonPopup: 2,
+    fourthButtonPopup: 3,
+    fifthButtonPopup: 4,
+    sixthButtonPopup: 5,
   };
 
   const targetId = e.target.id;
@@ -205,7 +205,7 @@ document.addEventListener('click', (e) => {
 });
 
 document.addEventListener('click', (e) => {
-  if ((e.target && e.target.class === 'closePopup') ) {
+  if ((e.target && e.target.class === 'closePopup')) {
     document.getElementById('welcomePopupContainer').classList.toggle('show2');
     document.getElementById('overlay').classList.toggle('overlayOn');
   }

@@ -6,8 +6,8 @@ const dataPopup = [
     language2: 'PostgreSQL',
     language3: 'Ruby on rails',
     image: './ScreenShots/CarRental1.png',
-    textmulti: 'We divided this project into two repositories: one for backend development with Ruby on Rails and the other for frontend development with React/Redux.\
-    The app is responsive. Moreover, the frontend application consumes data from the backend app, which provides user authentication and authorization functionalities.',
+    textmulti: `We divided this project into two repositories: one for backend development with Ruby on Rails and the other for frontend development with React/Redux.
+    The app is responsive. Moreover, the frontend application consumes data from the backend app, which provides user authentication and authorization functionalities.`,
     btnSeelive: 'See Live',
     iconSeelive: './icons/live.png',
     urlSeelive: 'https://github.com/gjuliao/car_app_backend',
@@ -91,8 +91,6 @@ const dataPopup = [
     urlSeeSource: 'https://github.com/dgcuenca/Blog-app',
   },
 ];
-
-const card = 0;
 
 function displayLayoutPopup(index) {
   const welcomePopupContainer = document.getElementById('welcomePopupContainer');

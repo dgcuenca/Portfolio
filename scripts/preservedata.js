@@ -6,6 +6,10 @@ const formData = {
   userName: '', userEmail: '', text: '',
 };
 
+const form = {
+  userName: '', userEmail: '', text: '',
+};
+
 function setStyles() {
   if (localStorage.getItem('formData') === null) {
     formData.userName = '';
@@ -16,16 +20,16 @@ function setStyles() {
     formData.userName = data.userName;
     formData.userEmail = data.userEmail;
     formData.text = data.text;
-    form.userName.value = formData.userName;
-    form.userEmail.value = formData.userEmail;
-    form.text.value = formData.text;
+    form.userName = formData.userName;
+    form.userEmail = formData.userEmail;
+    form.text = formData.text;
   }
 }
 
 function populateStorage() {
-  formData.userName = form.userName.value;
-  formData.userEmail = form.userEmail.value;
-  formData.text = form.text.value;
+  formData.userName = form.userName;
+  formData.userEmail = form.userEmail;
+  formData.text = form.text;
   localStorage.setItem('formData', JSON.stringify(formData));
   setStyles();
 }

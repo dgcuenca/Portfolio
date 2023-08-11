@@ -16,16 +16,16 @@ function setStyles() {
     formData.userName = data.userName;
     formData.userEmail = data.userEmail;
     formData.text = data.text;
-    form.userName.value = formData.userName;
-    form.userEmail.value = formData.userEmail;
-    form.text.value = formData.text;
+    fullname.value = formData.userName;
+    email.value = formData.userEmail;
+    text.value = formData.text;
   }
 }
 
 function populateStorage() {
-  formData.userName = form.userName.value;
-  formData.userEmail = form.userEmail.value;
-  formData.text = form.text.value;
+  formData.userName = fullname.value;
+  formData.userEmail = email.value;
+  formData.text = text.value;
   localStorage.setItem('formData', JSON.stringify(formData));
   setStyles();
 }

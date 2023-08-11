@@ -1,5 +1,6 @@
 const hamburgerIcon = document.getElementById('hamburgerIcon');
 const hamburgerDropdownContent = document.getElementById('hamburgerDropdownContent');
+
 hamburgerIcon.addEventListener('click', () => {
   document.getElementById('hamburgerDropdownContent').classList.toggle('show');
 });

@@ -1,99 +1,45 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video,
-input {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-
-  /* font: inherit; */
-  vertical-align: baseline;
+::-webkit-scrollbar {
+  width: 0.8rem;
+  border-left: 1px solid var(--color-alt);
 }
 
-/* HTML5 display-role reset for older browsers */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--action-color);
+  border-radius: 9px;
+}
+
+:root {
+  --primary: 210;
+  --color-primary: hsl(var(--primary), 3%, 12%);
+  --color-alt: hsl(calc(var(--primary) - 30), 3%, 90%);
+  --action-color: #ff6b00;
+  --ultimate-color: #179aac;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: var(--color-alt);
+}
+
 article,
 aside,
 details,
@@ -108,29 +54,12 @@ section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
-
 ol,
 ul {
   list-style: none;
 }
 
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote::before,
-blockquote::after,
-q::before,
-q::after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+a {
+  text-decoration: none;
+  color: inherit;
 }

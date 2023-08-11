@@ -7,10 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./styles/defaultStyle.css">
 	<link rel="stylesheet" href="./styles/generalStyle.css">
-	<link rel="stylesheet" href="./styles/firstStyles.css">
+	<link rel="stylesheet" href="./styles/welcomeStyles.css">
 	<link rel="stylesheet" href="./styles/middleStyles.css">
 	<link rel="stylesheet" href="./styles/formStyles.css">
-	<link rel="stylesheet" href="./styles/desktop.css">
+	<link rel="stylesheet" href="./styles/mediumDevices.css">
+	<link rel="stylesheet" href="./styles/largeDevices.css">
 	<script src="./scripts/hamburger.js" defer></script>
 	<script src="./scripts/form.js" defer></script>
 	<script src="./scripts/popup.js" defer></script>
@@ -24,25 +25,27 @@
 
 <body>
 	<div id="overlay"></div>
-	<div id="firstPopupContainer" class="popupContainer"></div>
-
-
-	<div class="firstSection">
+	<div id="welcomePopupContainer" class="popupContainer"></div>
+	<div class="welcomeSection">
 		<header class="header">
 			<ul class="toolbar">
 				<li class="toolbarMobile"><a href="#">Diego Cuenca</a></li>
-				<li class="toolbarDesktop pushright">Portfolio</li>
-				<li class="toolbarDesktop">About</li>
-				<li class="toolbarDesktop">Contact</li>
+				<li class="toolbarDesktop pushright"><a href="#portfolioSection">Portfolio</a></li>
+				<li class="toolbarDesktop"><a href="#aboutSection">About</a></li>
+				<li class="toolbarDesktop"><a href="#contactSection">Contact</a></li>
 				<li class="toolbarDesktop">
-					<img src="./icons/desktop/mail.png" alt="mailIcon">
+					<a href="mailto:web3.0develope@gmail.com">
+						<svg xmlns="http://www.w3.org/2000/svg" width="2.5rem" height="2.5rem" fill="currentColor" class="mailIcon" viewBox="0 0 16 16"> 
+							<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/> 
+						</svg>
+					</a>
 				</li>
 				<li class="toolbarMobile mobileIconmenu">
 					<nav>
 						<img id="hamburgerIcon" src="./icons/iconMenu.png" alt="iconMenu">
 						<div id="hamburgerDropdownContent" class="noShow">
-							<a class="btnx" href="#"><img src="./icons/closeIcon.png" alt="Hamburger Close Icon"></a>
-							<a href="#portfolioSection">Portfolio</a>
+							<a class="btnx"><img src="./icons/closeIcon.png" alt="Hamburger Close Icon"></a>
+							<a href="#portfolioSection" class="welcomePortfolio">Portfolio</a>
 							<a href="#aboutSection">About</a>
 							<a href="#contactSection">Contact</a>
 						</div>
@@ -53,19 +56,24 @@
 		<div class="leftMedia">
 			<section class="headline">
 				<h1>Hey There. </br>I’m Diego</h1>
-				<h2>I’am a Software Developer</h2>
-				<p>I can help you build a product , feature or website Look through some of my work and experience! If
+				<h2>I am a FullStack Software Developer</h2>
+				<p>I can help you build a product , feature or website. Look through some of my work and experience! If
 					you like what you see and have a project you need coded,
 					don’t hestiate to contact me.
 				</p>
 			</section>
 			<footer class="mediaDesktop">
 				<ul class="media">
-					<li><img class="iconmediaUp" src="./icons/Git.png" alt="Github Icon"></li>
-					<li><img class="iconmediaUp" src="./icons/Linkedin.png" alt="LinkedIn Icon"></li>
-					<li><img class="iconmediaUp" src="./icons/D2.png" alt="D2 Icon"></li>
-					<li><img class="iconmediaUp" src="./icons/Twitter.png" alt="Twitter Icon"></li>
-					<li><img class="iconmediaUp" src="./icons/Microverse.png" alt="Microverse Icon"></li>
+					<li>
+						<a href="https://github.com/dgcuenca" target="_blank" rel="noopener">
+							<img class="iconmediaUp" src="./icons/Git.png" alt="Github Icon">
+						</a>	
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/diego-cuenca/" target="_blank" rel="noopener">
+							<img class="iconmediaUp" src="./icons/Linkedin.png" alt="LinkedIn Icon">
+						</a>
+					</li>
 				</ul>
 			</footer>
 			<div class="background"></div>
@@ -79,25 +87,26 @@
 					<div class="line"></div>
 				</div>
 				<div class="topcontentContainer">
-					<div class="yoga"><img src="./images/yoga.png" alt="Yoga Women"></div>
+					<div class="mainProyect"><img src="./ScreenShots/CarRental.png" alt="Main Page Car Rental App"></div>
 					<div class="contentContainerTop">
 						<section class="contentTop">
-							<h2>Multi-Post Stories</h2>
-							<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has
-								been the
-								industry's standard dummy text ever since the 1500s, when an unknown printer took a
-								standard
-								dummy text.</p>
+							<h2>Rent a Car</h2>
+							<p>I worked on this project as my final Microverse FullStack Capstone project. 
+								It was a collaborative effort with four classmates from different parts of the world, 
+								all working remotely. The experience was incredibly enriching, and I thoroughly enjoyed 
+								being a part of this collaborative atmosphere. Working alongside experienced developers 
+								provided me with a tremendous opportunity to learn and grow throughout the app's development.
+							</p>
 						</section>
 						<footer class="footerTop">
 							<ul>
-								<li>Html</li>
-								<li>Css</li>
-								<li>Javascript</li>
+								<li>React</li>
+								<li>PostgreSQL</li>
+								<li>RubyOnRails</li>
 							</ul>
 						</footer>
 						<div>
-							<button type="button" id="firstButtonPopup" class="footerTopButton">See Project</button>
+							<button type="button" id="welcomeButtonPopup" class="footerTopButton">See Project</button>
 						</div>
 					</div>
 				</div>
@@ -105,14 +114,15 @@
 			<div class="cardsGrid">
 				<div class="cards">
 					<section class="contentCards">
-						<h1>Profesional Art Printing Data</h1>
-						<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-							the
-							industry's standard</p>
+						<div class="contentCardsHeader">
+							<h2>To Do List</h2>
+							<p>Easy to use web page that can help you handle a list of to do tasks</p>
+						</div>
+						<div class="imagenProyect"><img src="./ScreenShots/ToDoList.png" alt="Main Page ToDoList"></div>
 						<ul>
-							<li>Html</li>
-							<li>Css</li>
-							<li>Javascript</li>
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>JavaScript</li>
 						</ul>
 					</section>
 					<footer class="footerCards">
@@ -121,14 +131,15 @@
 				</div>
 				<div class="cards">
 					<section class="contentCards">
-						<h1>Profesional Art Printing Data</h1>
-						<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-							the
-							industry's standard</p>
+						<div class="contentCardsHeader">
+							<h2>NFT Gallery</h2>
+							<p>The app recreate a model in www.behance.net and was designed using mobile first approach</p>
+						</div>
+						<div class="imagenProyect"><img src="./ScreenShots/NFT.png" alt="Main Page NFT Gallery"></div>
 						<ul>
-							<li>Html</li>
-							<li>Css</li>
-							<li>Javascript</li>
+							<li>HTML5</li>
+							<li>SCSS</li>
+							<li>JavaScript</li>
 						</ul>
 					</section>
 					<footer class="footerCards">
@@ -137,14 +148,15 @@
 				</div>
 				<div class="cards">
 					<section class="contentCards">
-						<h1>Profesional Art Printing Data</h1>
-						<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-							the
-							industry's standard</p>
+						<div class="contentCardsHeader">
+							<h2>The Anime Hub</h2>
+							<p>In this project, I worked with the real live data from Jikan in order to build a mobile web application to check a list of metrics</p>
+						</div>
+						<div class="imagenProyect"><img src="./ScreenShots/animeHub.png" alt="Main Page Anime Hub"></div>
 						<ul>
-							<li>Html</li>
-							<li>Css</li>
-							<li>Javascript</li>
+							<li>SCSS</li>
+							<li>React</li>
+							<li>Redux</li>
 						</ul>
 					</section>
 					<footer class="footerCards">
@@ -153,14 +165,15 @@
 				</div>
 				<div class="cards">
 					<section class="contentCards">
-						<h1>Profesional Art Printing Data</h1>
-						<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-							the
-							industry's standard</p>
+						<div class="contentCardsHeader">
+							<h2>Vehicles rental (frontend)</h2>
+							<p>Vehicles Rental is a web app that helps you to reserv vehicles that can be rented for a period of time.</p>
+						</div>
+						<div class="imagenProyect"><img src="./ScreenShots/vehicle.png" alt="Main Page ToDoList"></div>
 						<ul>
-							<li>Html</li>
-							<li>Css</li>
-							<li>Javascript</li>
+							<li>CSS3</li>
+							<li>React</li>
+							<li>Redux</li>
 						</ul>
 					</section>
 					<footer class="footerCards">
@@ -169,108 +182,22 @@
 				</div>
 				<div class="cards">
 					<section class="contentCards">
-						<h1>Profesional Art Printing Data</h1>
-						<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-							the
-							industry's standard</p>
+						<div class="contentCardsHeader">
+							<h2>Blog App</h2>
+							<p>It is classic example of a blog website. The app is fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.</p>
+						</div>
+						<div class="imagenProyect"><img src="./ScreenShots/blog.png" alt="Main Page ToDoList"></div>
 						<ul>
-							<li>Html</li>
-							<li>Css</li>
-							<li>Javascript</li>
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>Rails</li>
 						</ul>
 					</section>
 					<footer class="footerCards">
 						<button type="button" id="sixthButtonPopup" class="footerTopButton">See Project</button>
 					</footer>
 				</div>
-				<div class="cards">
-					<section class="contentCards">
-						<h1>Profesional Art Printing Data</h1>
-						<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-							the
-							industry's standard</p>
-						<ul>
-							<li>Html</li>
-							<li>Css</li>
-							<li>Javascript</li>
-						</ul>
-					</section>
-					<footer class="footerCards">
-						<button type="button" id="seventhButtonPopup" class="footerTopButton">See Project</button>
-					</footer>
-				</div>
-				<div class="desktopCard once">
-					<div class="contentOnce"></div>
-					<footer class="footerOnce">
-						<button type="button" id="eighthButtonPopup" class="footerTopButton">See Project</button>
-					</footer>
-				</div>
-				<div class="desktopCard doce">
-					<section class="contentDoce">
-						<h1>Data Dashboard Healthcare</h1>
-						<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-							the
-							industry's standard</p>
-						<ul>
-							<li>Html</li>
-							<li>Bootstrap</li>
-							<li>Ruby</li>
-						</ul>
-					</section>
-				</div>
-				<div class="desktopCard trece">
-					<section class="contentDoce">
-						<h1>Website Protfolio </h1>
-						<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-							the
-							industry's standard</p>
-						<ul>
-							<li>Html</li>
-							<li>Bootstrap</li>
-							<li>Ruby</li>
-						</ul>
-					</section>
-				</div>
-				<div class="desktopCard once">
-					<section class="contentDoce">
-						<h1>Profesional Art Printing Data More </h1>
-						<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-							the
-							industry's standard</p>
-						<ul>
-							<li>Html</li>
-							<li>Bootstrap</li>
-							<li>Ruby</li>
-						</ul>
-					</section>
-				</div>
-				<div class="desktopCard doce">
-					<section class="contentDoce">
-						<h1>Data Dashboard Healthcare</h1>
-						<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-							the
-							industry's standard</p>
-						<ul>
-							<li>Html</li>
-							<li>Bootstrap</li>
-							<li>Ruby</li>
-						</ul>
-					</section>
-				</div>
-				<div class="desktopCard trece">
-					<section class="contentDoce">
-						<h1>Website Protfolio </h1>
-						<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been
-							the
-							industry's standard</p>
-						<ul>
-							<li>Html</li>
-							<li>Bootstrap</li>
-							<li>Ruby</li>
-						</ul>
-					</section>
-				</div>
-			</div>
+			</div> 
 		</div>
 		<div class="aboutSection" id="aboutSection">
 			<div class="aboutContainer">
@@ -279,21 +206,25 @@
 					<p> Hello I’m a software developer! I can help you build a product , feature or website Look through
 						some of my work and experience! If you like what you see and have a project you need coded,
 						don’t hestiate to contact me.</p>
-					<div><button type="button" class="aboutMeButton footerTopButton">Get My Resume</button></div>
+					<div>
+						<button type="button" class="aboutMeButton footerTopButton">
+							<a href="./files/CV.pdf" download="cvDiegoCuenca">Get My Resume</a>
+						</button>
+					</div>
 				</section>
 			</div>
 			<div class="aboutBackground"></div>
 			<div class="skills">
 				<ul class="language">
 					<div><span><img src="./icons/Diamond.png" alt="Diamond Icon"></span> Language</div>
-					<li class="first">Javascript</li>
+					<li class="welcome">Javascript</li>
 					<li>Ruby</li>
 					<li>Html</li>
 					<li>Css</li>
 				</ul>
 				<ul class="frameworks">
 					<div><span><img src="./icons/Rectangle .png" alt="Rectangle Icon"></span> Frameworks</div>
-					<li class="first">Bootstrap</li>
+					<li class="welcome">Bootstrap</li>
 					<li>Ruby on Rails</li>
 					<li>RSPec</li>
 					<li>CapyBara</li>
@@ -301,7 +232,7 @@
 				</ul>
 				<ul class="abilities">
 					<div><span><img src="./icons/Circle.png" alt="Circle Icon"></span> Skills</div>
-					<li class="first">Codekit</li>
+					<li class="welcome">Codekit</li>
 					<li>Github</li>
 					<li>Codepen</li>
 					<li>Gitlab</li>
@@ -347,11 +278,16 @@
 			<div class="mediaForm">
 				<nav>
 					<ul class="mediaDesk">
-						<li><a href="#"><img src="./icons/Gitf.png" alt="github"></a></li>
-						<li><a href="#"><img src="./icons/LinkedInf.png" alt="linkedIn"></a></li>
-						<li><a href="#"><img src="./icons/fingerf.png" alt="crossfingers"></a></li>
-						<li><a href="#"><img src="./icons/Twitterf.png" alt="twitter"></a></li>
-						<li><a href="#"><img src="./icons/Microversef.png" alt="microverse"></a></li>
+						<li>
+							<a href="https://github.com/dgcuenca" target="_blank" class="blackMedia" rel="noopener">
+								<img class="iconmediaUp" src="./icons/GitBlack.png" alt="Github Icon">
+							</a>	
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/diego-cuenca/" target="_blank" class="blackMedia" rel="noopener">
+								<img class="iconmediaUp" src="./icons/LinkedinBlack.png" alt="LinkedIn Icon">
+							</a>
+						</li>
 					</ul>
 				</nav>
 			</div>
@@ -359,5 +295,4 @@
 		</footer>
 	</div>
 </body>
-
 </html>

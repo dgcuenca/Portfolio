@@ -1,18 +1,21 @@
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 h1 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
+  color: var(--action-color);
+  font-size: 13vmin;
+  line-height: calc(13vmin * 1.2);
+  letter-spacing: -0.1rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: calc(2.4rem * 1.4);
+  text-align: center;
 }
 
 p {
@@ -20,5 +23,34 @@ p {
   font-style: normal;
   font-size: 1.5rem;
   font-weight: 400;
-  line-height: 2.1rem;
+  line-height: calc(1.5rem * 1.4);
+}
+
+button {
+  background-color: var(--action-color);
+  color: var(--color-alt);
+  font-family: 'Inter', sans-serif;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: var(--color-alt);
+  border: 0.1rem solid var(--action-color);
+  color: var(--action-color);
+}
+
+button:active {
+  background-color: var(--action-color);
+  color: var(--ultimate-color);
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
 }

@@ -1,26 +1,24 @@
 @media (min-width: 768px) {
-  /* First Section */
-  .firstSection {
+  /* welcome Section */
+  .welcomeSection {
     width: 100%;
     display: flex;
     flex-direction: column;
     background-image: none;
   }
 
-  .firstSection .header {
-    flex: 1;
-  }
-
   .leftMedia {
-    flex: 9;
     display: grid;
     grid-template-columns: 1fr 5fr 4fr;
+    max-height: 85vmin;
+    margin-top: -1rem;
   }
 
   .mediaDesktop {
     display: flex;
     order: -1;
     padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .background {
@@ -28,7 +26,7 @@
     background-image: url(../backgrounds/Desktop/firstSection.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right 0% bottom -50%;
+    background-position: right 0% bottom 30%;
     width: 100%;
     height: 100vh;
   }
@@ -57,14 +55,24 @@
 
   .toolbarDesktop {
     display: list-item;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: calc(1.8rem * 1.1);
     font-weight: 700;
-    color: white;
     margin-left: 24px;
     margin-right: 24px;
-    line-height: 24px;
+  }
+
+  .toolbarDesktop a {
+    color: var(--color-alt);
+  }
+
+  .toolbarDesktop a:hover {
+    color: var(--action-color);
+  }
+
+  .mailIcon:hover {
+    fill: var(--action-color);
   }
 
   .mobileIconmenu {
@@ -87,33 +95,24 @@
   }
 
   .headline h1 {
-    font-family: 'Crete Round', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 6rem;
-    line-height: 6rem;
-    color: #f55800;
+    font-size: 10vmin;
+    line-height: calc(10vmin * 1.3);
+    color: var(--action-color);
     padding-top: 3rem;
   }
 
   .headline h2 {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 3rem;
     font-size: 2.5rem;
-    color: #fff;
+    line-height: calc(2.5rem * 1.1);
+    color: var(--color-alt);
     margin-top: 0.9rem;
     margin-bottom: 0.9rem;
   }
 
   .headline p {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 3rem;
-    color: #f4f5f7;
+    font-size: 1.8rem;
+    line-height: calc(1.8rem * 1.1);
+    color: var(--color-alt);
   }
 
   /* Middle Section */
@@ -143,15 +142,12 @@
   .topheadContainer h2 {
     width: 30%;
     margin-top: 0;
-    padding-bottom: 0;
-    font-size: 2rem;
-    line-height: 4rem;
     margin-right: 0;
+    font-size: 2rem;
+    line-height: calc(2rem * 1.1);
+    padding-bottom: 0;
     padding-right: 0;
     padding-left: 1rem;
-    font-family: 'Crete Round', sans-serif;
-    font-style: normal;
-    font-weight: 400;
   }
 
   .topheadContainer .line {
@@ -164,33 +160,31 @@
 
   .topcontentContainer {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
   }
 
-  .yoga {
-    width: 60%;
-    height: auto;
-    margin-bottom: 0;
+  .mainProyect {
+    display: flex;
   }
 
   .contentContainerTop {
-    width: 40%;
+    width: 60%;
     display: flex;
     flex-direction: column;
   }
 
   .contentTop h2 {
     margin-top: 0;
-    padding-top: 0;
     margin-bottom: 1rem;
+    padding-top: 0;
     font-size: 2rem;
-    line-height: 4rem;
+    line-height: calc(2rem * 1.1);
   }
 
   .contentTop p {
     margin-bottom: 1.2rem;
     font-size: 1.5rem;
-    line-height: 2.2rem;
+    line-height: calc(1.5rem * 1.3);
   }
 
   .footerTop {
@@ -205,97 +199,33 @@
   .footerTop li {
     padding: 1rem 1.2rem;
     font-size: 1.15rem;
-    line-height: 1.8rem;
+    line-height: calc(1.15rem * 1.3);
   }
 
   .cardsGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 1.8em;
   }
 
   .cards {
-    display: none;
-  }
-
-  .desktopCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    min-height: 31rem;
+    width: 40vw;
     padding: 1rem;
   }
 
-  .desktopCard.once {
-    background-image: url(../backgrounds/Placeholder.png);
-    background-size: cover;
+  .contentCardsHeader {
+    flex-grow: 1;
   }
 
-  .contentOnce {
-    flex: 1;
+  .imagenProyect {
+    max-width: 25vw;
+    max-height: 50vh;
   }
 
-  .footerOnce {
-    display: flex;
-  }
-
-  .footerOnce button {
-    flex: 1;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    background-color: #ff6b00;
-    border: 0;
-    color: #fff;
-    padding: 1.2rem;
-    font-size: 1.5rem;
-    margin: -1rem;
-  }
-
-  .desktopCard.doce {
-    background-image: url(../backgrounds/Desktop/Placeholder12.png);
-    background-size: cover;
-  }
-
-  .contentDoce h1 {
-    font-family: 'Crete Round', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    color: #fff;
-    font-size: 2rem;
-    line-height: 2.5rem;
-  }
-
-  .contentDoce p {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.7rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    color: #fff;
-  }
-
-  .contentDoce ul {
-    display: flex;
-    gap: 1rem;
-  }
-
-  .contentDoce li {
-    background-color: rgba(255, 255, 255, 0.24);
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1rem;
-    color: #fff;
-    padding: 0.8rem 1rem;
-  }
-
-  .desktopCard.trece {
-    background-image: url(../backgrounds/Desktop/Placeholder13.png);
-    background-size: cover;
+  .imagenProyect img {
+    width: 100%;
+    height: 100%;
   }
 
   .aboutSection {
@@ -320,12 +250,12 @@
   .aboutMe h2 {
     font-size: 5rem;
     margin-bottom: 0.2rem;
-    line-height: 8rem;
+    line-height: calc(5rem * 1.4);
   }
 
   .aboutMe p {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 2.1rem;
+    line-height: calc(2.1rem * 1.2);
   }
 
   .aboutMeButton {
@@ -376,7 +306,7 @@
 
   .skills .language li {
     font-size: 1.5rem;
-    line-height: 1.8rem;
+    line-height: calc(1.5rem * 1.2);
   }
 
   .skills .frameworks img {
@@ -392,7 +322,7 @@
 
   .skills .frameworks li {
     font-size: 1.5rem;
-    line-height: 1.8rem;
+    line-height: calc(1.5rem * 1.2);
   }
 
   .skills .abilities img {
@@ -408,7 +338,7 @@
 
   .skills .abilities li {
     font-size: 1.5rem;
-    line-height: 1.8rem;
+    line-height: calc(1.5rem * 1.2);
   }
 
   .last {
@@ -441,14 +371,14 @@
     text-align: start;
     margin: 0;
     font-size: 2.4rem;
-    line-height: 3rem;
+    line-height: calc(2.4rem * 1.2);
   }
 
   .formBox {
     margin: 0;
     padding: 0;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
+    font-size: 2rem;
+    line-height: calc(1.5rem * 1.2);
     margin-bottom: 2rem;
   }
 
@@ -456,7 +386,6 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    font-size: 1.5rem;
     line-height: 3rem;
     min-height: 2.5rem;
     padding-left: 1.5rem;
@@ -524,12 +453,6 @@
     max-height: 53vh;
   }
 
-  /* .containerMainImagen img {
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  } */
-
   .containerBottonPopup p {
     margin-top: 3rem;
     margin-right: 2rem;
@@ -537,10 +460,5 @@
 
   .containerBottonPopup > div {
     margin-right: 2rem;
-  }
-
-  .containerBottonPopup button {
-    justify-content: start;
-    flex: 0 1 auto;
   }
 }

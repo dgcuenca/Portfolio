@@ -16,7 +16,7 @@ function showError(input, message) {
 
 function validateEmail(input, invalidMsg) {
   // validate email format
-  const emailRegex = /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,3})$/;
+  const emailRegex = /^([a-z\d.-]+)@([a-z\d-]+)\.([a-z]{2,3})$/;
   const email = input.value.trim();
   if (!emailRegex.test(email)) {
     return showError(input, invalidMsg);

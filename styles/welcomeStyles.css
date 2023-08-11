@@ -22,7 +22,7 @@
   font-weight: 700;
   margin-top: 5.3rem;
   margin-bottom: 1.2rem;
-  line-height: calc( 1.2rem * 1.4);
+  line-height: calc(1.2rem * 1.4);
 }
 
 .toolbarMobile nav img {
@@ -43,7 +43,7 @@
   display: block;
   font-weight: 700;
   font-size: 3.2rem;
-  line-height: calc( 4.4rem * 1.4);
+  line-height: calc(4.4rem * 1.4);
   border-bottom: var(--ultimate-color) solid 0.1rem;
   list-style-type: none;
   background-color: var(--color-primary);
@@ -54,7 +54,7 @@
 }
 
 .show {
-  display: flex ;
+  display: flex;
   flex-direction: column;
   height: 100vh;
   width: 100vw;

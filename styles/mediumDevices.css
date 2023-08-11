@@ -1,5 +1,4 @@
 @media (min-width: 768px) {
-
   /* welcome Section */
   .welcomeSection {
     width: 100%;
@@ -58,7 +57,7 @@
     display: list-item;
     font-style: normal;
     font-size: 1.8rem;
-    line-height: calc( 1.8rem * 1.1);
+    line-height: calc(1.8rem * 1.1);
     font-weight: 700;
     margin-left: 24px;
     margin-right: 24px;
@@ -75,7 +74,7 @@
   .mailIcon:hover {
     fill: var(--action-color);
   }
-  
+
   .mobileIconmenu {
     display: none;
   }
@@ -97,14 +96,14 @@
 
   .headline h1 {
     font-size: 10vmin;
-    line-height: calc( 10vmin * 1.3);
+    line-height: calc(10vmin * 1.3);
     color: var(--action-color);
     padding-top: 3rem;
   }
 
   .headline h2 {
     font-size: 2.5rem;
-    line-height: calc( 2.5rem * 1.1);
+    line-height: calc(2.5rem * 1.1);
     color: var(--color-alt);
     margin-top: 0.9rem;
     margin-bottom: 0.9rem;
@@ -112,7 +111,7 @@
 
   .headline p {
     font-size: 1.8rem;
-    line-height: calc( 1.8rem * 1.1);
+    line-height: calc(1.8rem * 1.1);
     color: var(--color-alt);
   }
 
@@ -145,7 +144,7 @@
     margin-top: 0;
     margin-right: 0;
     font-size: 2rem;
-    line-height: calc( 2rem * 1.1);
+    line-height: calc(2rem * 1.1);
     padding-bottom: 0;
     padding-right: 0;
     padding-left: 1rem;
@@ -179,13 +178,13 @@
     margin-bottom: 1rem;
     padding-top: 0;
     font-size: 2rem;
-    line-height: calc( 2rem * 1.1);
+    line-height: calc(2rem * 1.1);
   }
 
   .contentTop p {
     margin-bottom: 1.2rem;
     font-size: 1.5rem;
-    line-height: calc( 1.5rem * 1.3);
+    line-height: calc(1.5rem * 1.3);
   }
 
   .footerTop {
@@ -200,7 +199,7 @@
   .footerTop li {
     padding: 1rem 1.2rem;
     font-size: 1.15rem;
-    line-height: calc( 1.15rem * 1.3);
+    line-height: calc(1.15rem * 1.3);
   }
 
   .cardsGrid {
@@ -251,12 +250,12 @@
   .aboutMe h2 {
     font-size: 5rem;
     margin-bottom: 0.2rem;
-    line-height: calc( 5rem * 1.4);
+    line-height: calc(5rem * 1.4);
   }
 
   .aboutMe p {
     font-size: 2.1rem;
-    line-height: calc( 2.1rem * 1.2);
+    line-height: calc(2.1rem * 1.2);
   }
 
   .aboutMeButton {
@@ -307,7 +306,7 @@
 
   .skills .language li {
     font-size: 1.5rem;
-    line-height: calc( 1.5rem * 1.2);
+    line-height: calc(1.5rem * 1.2);
   }
 
   .skills .frameworks img {
@@ -323,7 +322,7 @@
 
   .skills .frameworks li {
     font-size: 1.5rem;
-    line-height: calc( 1.5rem * 1.2);
+    line-height: calc(1.5rem * 1.2);
   }
 
   .skills .abilities img {
@@ -339,7 +338,7 @@
 
   .skills .abilities li {
     font-size: 1.5rem;
-    line-height: calc( 1.5rem * 1.2);
+    line-height: calc(1.5rem * 1.2);
   }
 
   .last {
@@ -372,14 +371,14 @@
     text-align: start;
     margin: 0;
     font-size: 2.4rem;
-    line-height: calc( 2.4rem * 1.2);
+    line-height: calc(2.4rem * 1.2);
   }
 
   .formBox {
     margin: 0;
     padding: 0;
     font-size: 2rem;
-    line-height: calc( 1.5rem * 1.2);
+    line-height: calc(1.5rem * 1.2);
     margin-bottom: 2rem;
   }
 

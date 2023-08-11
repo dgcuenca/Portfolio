@@ -4,7 +4,7 @@ h1 {
   font-weight: 400;
   color: var(--action-color);
   font-size: 13vmin;
-  line-height: calc( 13vmin * 1.2);
+  line-height: calc(13vmin * 1.2);
   letter-spacing: -0.1rem;
   text-align: center;
 }
@@ -14,7 +14,7 @@ h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 2.4rem;
-  line-height: calc( 2.4rem * 1.4);
+  line-height: calc(2.4rem * 1.4);
   text-align: center;
 }
 
@@ -23,7 +23,7 @@ p {
   font-style: normal;
   font-size: 1.5rem;
   font-weight: 400;
-  line-height: calc( 1.5rem * 1.4);
+  line-height: calc(1.5rem * 1.4);
 }
 
 button {

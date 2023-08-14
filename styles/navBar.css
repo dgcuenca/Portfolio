@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+  .toolbarMobile {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .toolbarDesktop {
+    display: list-item;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: calc(1.8rem * 1.1);
+    font-weight: 700;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .toolbarDesktop a {
+    color: var(--color-alt);
+  }
+
+  .toolbarDesktop a:hover {
+    color: var(--action-color);
+  }
+
+  .mailIcon:hover {
+    fill: var(--action-color);
+  }
+
+  .mobileIconmenu {
+    display: none;
+  }
+
+  .pushright {
+    margin-left: auto;
+  }
+
+  .toolbar {
+    align-items: center;
+    height: 7rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}

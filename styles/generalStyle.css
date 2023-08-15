@@ -53,4 +53,5 @@ li {
 a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
+  color: inherit;
 }

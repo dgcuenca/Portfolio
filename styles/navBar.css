@@ -1,24 +1,134 @@
+.toolbar {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-primary);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  border-bottom: var(--ultimate-color) solid 0.1rem;
+  height: 15vh;
+}
+
+.toolbarMobile {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 5.3rem;
+  margin-bottom: 1.2rem;
+  line-height: calc(1.2rem * 1.4);
+}
+
+.toolbarDesktop {
+  display: none;
+}
+
+.toolbarMobile nav img {
+  margin-top: -0.3rem;
+}
+
+.noShow {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-top: 1rem;
+}
+
+.noShow a {
+  padding: 1.2rem 1.6rem;
+  display: block;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: calc(4.4rem * 1.4);
+  border-bottom: var(--ultimate-color) solid 0.1rem;
+  list-style-type: none;
+  background-color: var(--color-primary);
+}
+
+.welcomePortfolio {
+  margin-top: -3rem;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--color-primary);
+}
+
+.noShow .btnx {
+  display: flex;
+  justify-content: flex-end;
+  padding: 11.5% 8%;
+  border-bottom: none;
+}
+
 @media (min-width: 768px) {
+
   .toolbarMobile {
     margin-top: 0;
     margin-bottom: 0;
   }
+  
+  .mobileIconmenu {
+    display: none;
+  }
+
+  .toolbar {
+    align-items: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .toolbarDesktopContainer {
+    display: flex;
+  }
 
   .toolbarDesktop {
-    display: list-item;
+    display: flex;
     font-style: normal;
     font-size: 1.8rem;
     line-height: calc(1.8rem * 1.1);
     font-weight: 700;
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
   }
 
+  .toolbarDesktop:hover + .toolbarDesktop::after {
+    translate: -100%;
+  }
+
+  .toolbarDesktop:has(+:hover)::after {
+    translate: 100%;
+  }
+
+  .toolbarDesktop::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0.2rem;
+    width: 100%;
+    background-color: var(--ultimate-color);
+    scale: 0 1;
+    transition: 
+      scale 500ms ,
+      translate 2500ms;
+  }
+
+  .toolbarDesktop:hover::after {
+    scale: 1 1;
+  }
   .toolbarDesktop a {
     color: var(--color-alt);
   }
 
-  .toolbarDesktop a:hover {
+  .toolbarDesktop a:hover,
+  .toolbarDesktop a:focus-visible {
     color: var(--action-color);
   }
 
@@ -26,18 +136,8 @@
     fill: var(--action-color);
   }
 
-  .mobileIconmenu {
-    display: none;
-  }
-
   .pushright {
     margin-left: auto;
   }
 
-  .toolbar {
-    align-items: center;
-    height: 7rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
 }

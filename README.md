@@ -1,5 +1,3 @@
-![](TBD)
-
 # Project Name
 
 > Portfolio

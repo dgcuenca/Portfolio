@@ -1,75 +1,7 @@
 .welcomeSection {
-  min-height: 100vh;
-  background-color: var(--color-primary);
-  padding-top: 8rem;
-}
-
-.toolbar {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--color-primary);
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  width: 100%;
-  border-bottom: var(--ultimate-color) solid 0.1rem;
-}
-
-.toolbarMobile {
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-top: 5.3rem;
-  margin-bottom: 1.2rem;
-  line-height: calc(1.2rem * 1.4);
-}
-
-.toolbarMobile nav img {
-  margin-top: -0.3rem;
-}
-
-.noShow {
-  display: none;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  margin-top: 1rem;
-}
-
-.noShow a {
-  padding: 1.2rem 1.6rem;
-  display: block;
-  font-weight: 700;
-  font-size: 3.2rem;
-  line-height: calc(4.4rem * 1.4);
-  border-bottom: var(--ultimate-color) solid 0.1rem;
-  list-style-type: none;
-  background-color: var(--color-primary);
-}
-
-.welcomePortfolio {
-  margin-top: -3rem;
-}
-
-.show {
-  display: flex;
-  flex-direction: column;
   height: 100vh;
-  width: 100vw;
   background-color: var(--color-primary);
-}
-
-.noShow .btnx {
-  display: flex;
-  justify-content: flex-end;
-  padding: 11.5% 8%;
-  border-bottom: none;
-}
-
-.toolbar .toolbarMobile a {
-  color: inherit;
+  padding-top: 15vh;
 }
 
 .background {
@@ -106,8 +38,4 @@
 
 .iconmediaUp:hover {
   background-color: var(--ultimate-color);
-}
-
-.toolbarDesktop {
-  display: none;
 }

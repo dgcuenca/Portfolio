@@ -94,15 +94,15 @@
     font-size: 1.8rem;
     line-height: calc(1.8rem * 1.1);
     font-weight: 700;
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-  }
+    /* To manage hover instead of use gap in the container */
+    padding: 0.5vh 1.8vw;
+    }
 
   .toolbarDesktop:hover + .toolbarDesktop::after {
     translate: -100%;
   }
 
-  .toolbarDesktop:has(+:hover)::after {
+  .toolbarDesktop:has(+ :hover)::after {
     translate: 100%;
   }
 
@@ -111,13 +111,13 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 0.2rem;
+    border-top: ridge 0.1rem var(--ultimate-color);
     width: 100%;
-    background-color: var(--ultimate-color);
     scale: 0 1;
     transition: 
       scale 500ms ,
-      translate 2500ms;
+      transform 2s ease-in-out,
+      translate 3000ms;
   }
 
   .toolbarDesktop:hover::after {
@@ -130,6 +130,10 @@
   .toolbarDesktop a:hover,
   .toolbarDesktop a:focus-visible {
     color: var(--action-color);
+  }
+
+  .mailIcon {
+    margin-top: -0.3rem;
   }
 
   .mailIcon:hover {

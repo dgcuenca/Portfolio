@@ -68,12 +68,11 @@
 }
 
 @media (min-width: 768px) {
-
   .toolbarMobile {
     margin-top: 0;
     margin-bottom: 0;
   }
-  
+
   .mobileIconmenu {
     display: none;
   }
@@ -94,16 +93,9 @@
     font-size: 1.8rem;
     line-height: calc(1.8rem * 1.1);
     font-weight: 700;
+
     /* To manage hover instead of use gap in the container */
     padding: 0.5vh 1.8vw;
-    }
-
-  .toolbarDesktop:hover + .toolbarDesktop::after {
-    translate: -100%;
-  }
-
-  .toolbarDesktop:has(+ :hover)::after {
-    translate: 100%;
   }
 
   .toolbarDesktop::after {
@@ -114,15 +106,24 @@
     border-top: ridge 0.1rem var(--ultimate-color);
     width: 100%;
     scale: 0 1;
-    transition: 
-      scale 500ms ,
+    transition:
+      scale 500ms,
       transform 2s ease-in-out,
       translate 3000ms;
+  }
+
+  .toolbarDesktop:has(+ :hover)::after {
+    translate: 100%;
   }
 
   .toolbarDesktop:hover::after {
     scale: 1 1;
   }
+
+  .toolbarDesktop:hover + .toolbarDesktop::after {
+    translate: -100%;
+  }
+
   .toolbarDesktop a {
     color: var(--color-alt);
   }
@@ -143,5 +144,4 @@
   .pushright {
     margin-left: auto;
   }
-
 }

@@ -103,7 +103,8 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    border-top: ridge 0.1rem var(--ultimate-color);
+    filter: blur(0.1rem);
+    border-top: ridge 0.4rem var(--ultimate-color);
     width: 100%;
     scale: 0 1;
     transition:

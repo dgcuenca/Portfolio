@@ -17,7 +17,6 @@
   
   .scrollSnapChild {
     scroll-snap-align: start;
-    border: 1px solid salmon;
   }
 
   .leftMedia {
@@ -184,19 +183,21 @@
   }
 
   .cards {
+    height: 85vh;
+    max-height: 85vh;
     width: 40vw;
-    padding: 1rem;
   }
 
   .contentCardsHeader {
+    margin-top: -10vh;
     flex-grow: 1;
   }
 
   .imagenProyect {
     max-width: 25vw;
     width: 25vw;
-    max-height: 50vh;
-    height: 50vh;
+    max-height: 35vh;
+    height: 35vh;
   }
 
   .imagenProyect img {

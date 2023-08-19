@@ -180,6 +180,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 1.8em;
+    border: 1px solid red;
   }
 
   .cards {
@@ -206,10 +207,12 @@
 
   .aboutSection {
     width: 100%;
-    height: auto;
+    height: 85vh;
+    max-height: 85vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    border: 1px solid blue;
   }
 
   .aboutSection .aboutContainer {
@@ -220,7 +223,6 @@
     margin: 0;
     border-bottom: 0;
     padding-left: 7rem;
-    padding-top: 7rem;
   }
 
   .aboutMe h2 {
@@ -235,10 +237,9 @@
   }
 
   .aboutMeButton {
-    margin: 0;
-    line-height: 0;
     font-size: 1.1rem;
-    margin-bottom: 7rem;
+    line-height: calc(1.1rem * 1.2);
+    margin-bottom: 2rem;
   }
 
   .aboutBackground {
@@ -259,7 +260,7 @@
     justify-content: space-between;
     margin-right: 7rem;
     margin-left: 7rem;
-    padding-top: 7rem;
+    padding-top: 3rem;
     padding-right: 15rem;
   }
 

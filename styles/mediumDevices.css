@@ -32,10 +32,8 @@
   }
 
   .media {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 1.5rem;
+    margin-left: 3vw;
   }
 
   .media li {

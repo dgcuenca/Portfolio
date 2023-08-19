@@ -188,16 +188,15 @@
     width: 40vw;
   }
 
-  .contentCardsHeader {
-    margin-top: -10vh;
-    flex-grow: 1;
+  .contentCardsHeader h2{
+    margin-top: 0;
+    padding-top: 0;
   }
 
   .imagenProyect {
-    max-width: 25vw;
-    width: 25vw;
-    max-height: 35vh;
-    height: 35vh;
+    width: 100%;
+    height: 30vh;
+    flex-grow: 1;
   }
 
   .imagenProyect img {

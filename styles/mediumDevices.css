@@ -14,7 +14,7 @@
     height: 100vh;
     scroll-padding-block-start: 15vh;
   }
-  
+
   .scrollSnapChild {
     scroll-snap-align: start;
   }
@@ -181,7 +181,6 @@
     grid-template-rows: 1fr 1fr 1fr;
     gap: 1.8em;
     padding-bottom: 30vh;
-    border: 1px solid red;
   }
 
   .cards {
@@ -190,7 +189,7 @@
     width: 40vw;
   }
 
-  .contentCardsHeader h2{
+  .contentCardsHeader h2 {
     margin-top: 0;
     padding-top: 0;
   }

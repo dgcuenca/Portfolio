@@ -93,6 +93,7 @@
     font-size: 1.8rem;
     line-height: calc(1.8rem * 1.1);
     font-weight: 700;
+
     /* To manage hover instead of use gap in the container */
     padding: 0.5vh 1.8vw;
   }

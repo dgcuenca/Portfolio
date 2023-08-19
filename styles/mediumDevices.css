@@ -7,10 +7,23 @@
     background-image: none;
   }
 
+  .scrollSnapContainer {
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+    width: 100vw;
+    height: 100vh;
+    scroll-padding-block-start: 15vh;
+  }
+  
+  .scrollSnapChild {
+    scroll-snap-align: start;
+    border: 1px solid salmon;
+  }
+
   .leftMedia {
     display: grid;
     grid-template-columns: 1fr 5fr 4fr;
-    max-height: 85vmin;
+    height: 85vh;
     margin-top: -1rem;
   }
 
@@ -82,17 +95,22 @@
   .worksSection {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 80vw;
     margin: auto;
     gap: 2rem;
     margin-bottom: 10rem;
   }
 
+  .top {
+    height: 85vh;
+    max-height: 85vh;
+  }
+
   .topheadContainer {
     display: flex;
     gap: 0;
-    margin-bottom: 7rem;
-    margin-top: 10rem;
+    margin-bottom: 5rem;
+    margin-top: 0.5rem;
   }
 
   .topheadContainer h2 {
@@ -176,7 +194,9 @@
 
   .imagenProyect {
     max-width: 25vw;
+    width: 25vw;
     max-height: 50vh;
+    height: 50vh;
   }
 
   .imagenProyect img {

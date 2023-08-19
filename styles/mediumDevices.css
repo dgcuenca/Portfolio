@@ -7,10 +7,22 @@
     background-image: none;
   }
 
+  .scrollSnapContainer {
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+    width: 100vw;
+    height: 100vh;
+    scroll-padding-block-start: 15vh;
+  }
+
+  .scrollSnapChild {
+    scroll-snap-align: start;
+  }
+
   .leftMedia {
     display: grid;
     grid-template-columns: 1fr 5fr 4fr;
-    max-height: 85vmin;
+    height: 85vh;
     margin-top: -1rem;
   }
 
@@ -32,10 +44,8 @@
   }
 
   .media {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 1.5rem;
+    margin-left: 3vw;
   }
 
   .media li {
@@ -84,17 +94,22 @@
   .worksSection {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 80vw;
     margin: auto;
     gap: 2rem;
     margin-bottom: 10rem;
   }
 
+  .top {
+    height: 85vh;
+    max-height: 85vh;
+  }
+
   .topheadContainer {
     display: flex;
     gap: 0;
-    margin-bottom: 7rem;
-    margin-top: 10rem;
+    margin-bottom: 5rem;
+    margin-top: 0.5rem;
   }
 
   .topheadContainer h2 {
@@ -165,20 +180,24 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 1.8em;
+    padding-bottom: 30vh;
   }
 
   .cards {
+    height: 85vh;
+    max-height: 85vh;
     width: 40vw;
-    padding: 1rem;
   }
 
-  .contentCardsHeader {
-    flex-grow: 1;
+  .contentCardsHeader h2 {
+    margin-top: 0;
+    padding-top: 0;
   }
 
   .imagenProyect {
-    max-width: 25vw;
-    max-height: 50vh;
+    width: 100%;
+    height: 30vh;
+    flex-grow: 1;
   }
 
   .imagenProyect img {
@@ -188,7 +207,8 @@
 
   .aboutSection {
     width: 100%;
-    height: auto;
+    height: 85vh;
+    max-height: 85vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -202,25 +222,25 @@
     margin: 0;
     border-bottom: 0;
     padding-left: 7rem;
-    padding-top: 7rem;
   }
 
   .aboutMe h2 {
     font-size: 5rem;
     margin-bottom: 0.2rem;
     line-height: calc(5rem * 1.4);
+    padding-top: 2rem;
   }
 
   .aboutMe p {
+    margin-top: 1rem;
     font-size: 2.1rem;
     line-height: calc(2.1rem * 1.2);
   }
 
   .aboutMeButton {
-    margin: 0;
-    line-height: 0;
     font-size: 1.1rem;
-    margin-bottom: 7rem;
+    line-height: calc(1.1rem * 1.2);
+    margin-bottom: 2rem;
   }
 
   .aboutBackground {
@@ -234,14 +254,14 @@
   }
 
   .skills {
-    border-top: 1px solid #fff;
+    border-top: 1px solid var(--color-alt);
     grid-area: 2/1/3/3;
     display: flex;
     text-align: start;
     justify-content: space-between;
     margin-right: 7rem;
     margin-left: 7rem;
-    padding-top: 7rem;
+    padding-top: 3rem;
     padding-right: 15rem;
   }
 
@@ -306,6 +326,8 @@
   /* Last Section */
   .lastSection {
     width: 100%;
+    height: 85vh;
+    max-height: 85vh;
     padding: 0;
   }
 

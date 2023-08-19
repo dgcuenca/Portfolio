@@ -180,6 +180,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 1.8em;
+    padding-bottom: 30vh;
     border: 1px solid red;
   }
 
@@ -212,7 +213,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    border: 1px solid blue;
   }
 
   .aboutSection .aboutContainer {
@@ -229,9 +229,11 @@
     font-size: 5rem;
     margin-bottom: 0.2rem;
     line-height: calc(5rem * 1.4);
+    padding-top: 2rem;
   }
 
   .aboutMe p {
+    margin-top: 1rem;
     font-size: 2.1rem;
     line-height: calc(2.1rem * 1.2);
   }
@@ -253,7 +255,7 @@
   }
 
   .skills {
-    border-top: 1px solid #fff;
+    border-top: 1px solid var(--color-alt);
     grid-area: 2/1/3/3;
     display: flex;
     text-align: start;

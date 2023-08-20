@@ -1,8 +1,9 @@
 .toolbar {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 8vw;
+  padding-right: 8vw;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--color-primary);
   position: fixed;
   z-index: 1;
@@ -15,17 +16,11 @@
 .toolbarMobile {
   font-size: 1.8rem;
   font-weight: 700;
-  margin-top: 5.3rem;
-  margin-bottom: 1.2rem;
-  line-height: calc(1.2rem * 1.4);
+  line-height: calc(1.8rem * 1.4);
 }
 
 .toolbarDesktop {
   display: none;
-}
-
-.toolbarMobile nav img {
-  margin-top: -0.3rem;
 }
 
 .noShow {
@@ -34,22 +29,17 @@
   left: 0;
   right: 0;
   top: 0;
-  margin-top: 1rem;
 }
 
 .noShow a {
-  padding: 1.2rem 1.6rem;
+  padding: 1.2rem 0 1.2rem 1.6rem;
   display: block;
   font-weight: 700;
   font-size: 3.2rem;
-  line-height: calc(4.4rem * 1.4);
+  line-height: calc(3.2rem * 1.4);
   border-bottom: var(--ultimate-color) solid 0.1rem;
   list-style-type: none;
   background-color: var(--color-primary);
-}
-
-.welcomePortfolio {
-  margin-top: -3rem;
 }
 
 .show {
@@ -63,7 +53,7 @@
 .noShow .btnx {
   display: flex;
   justify-content: flex-end;
-  padding: 11.5% 8%;
+  padding: 5.5vh 8vw;
   border-bottom: none;
 }
 
@@ -93,7 +83,6 @@
     font-size: 1.8rem;
     line-height: calc(1.8rem * 1.1);
     font-weight: 700;
-
     /* To manage hover instead of use gap in the container */
     padding: 0.5vh 1.8vw;
   }
@@ -109,8 +98,7 @@
     scale: 0 1;
     transition:
       scale 500ms,
-      transform 2s ease-in-out,
-      translate 3000ms;
+      translate 1500ms;
   }
 
   .toolbarDesktop:has(+ :hover)::after {

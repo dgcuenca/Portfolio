@@ -49,13 +49,18 @@
   }
 
   .media li {
-    height: 1.3rem;
-    width: 1.3rem;
+    height: 2rem;
+    width: 2rem;
   }
 
   .iconmediaUp {
     height: 100%;
     width: 100%;
+    fill: var(--color-alt);
+  }
+
+  .iconmediaUp:hover {
+    fill: var(--ultimate-color);
   }
 
   .headline {

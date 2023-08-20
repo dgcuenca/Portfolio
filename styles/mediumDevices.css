@@ -59,7 +59,11 @@
   }
 
   .headline {
-    margin-left: -3rem;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
   }
 
   .headline h1 {
@@ -103,6 +107,8 @@
   .top {
     height: 85vh;
     max-height: 85vh;
+    display: flex;
+    justify-content: center;
   }
 
   .topheadContainer {
@@ -216,6 +222,8 @@
 
   .aboutSection .aboutContainer {
     background-image: none;
+    display: flex;
+    align-items: center;
   }
 
   .aboutMe {
@@ -329,6 +337,8 @@
     height: 85vh;
     max-height: 85vh;
     padding: 0;
+    display: flex;
+    align-items: center;
   }
 
   .desktopformContainer {

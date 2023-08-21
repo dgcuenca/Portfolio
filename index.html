@@ -17,6 +17,7 @@
 	<script src="./scripts/form.js" defer></script>
 	<script src="./scripts/popup.js" defer></script>
 	<script src="./scripts/preservedata.js" defer></script>
+	<script src="./scripts/navbar.js" defer></script>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
@@ -28,10 +29,10 @@
 	<div id="overlay"></div>
 	<div id="welcomePopupContainer" class="popupContainer"></div>
 	<div class="scrollSnapContainer">
-		<div class="welcomeSection scrollSnapChild">
+		<div class="welcomeSection scrollSnapChild" id="start">
 			<header class="header">
 				<ul class="toolbar">
-					<li class="toolbarMobile"><a href="#">Diego Cuenca</a></li>
+					<li class="toolbarMobile" id="brandName"><a href="#start">Diego Cuenca</a></li>
 					<div class="toolbarDesktopContainer pushright">
 						<li class="toolbarDesktop "><a href="#portfolioSection">Portfolio</a></li>
 						<li class="toolbarDesktop"><a href="#aboutSection">About</a></li>

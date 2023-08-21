@@ -10,10 +10,10 @@ const dataPopup = [
     The app is responsive. Moreover, the frontend application consumes data from the backend app, which provides user authentication and authorization functionalities.`,
     btnSeelive: 'See Live',
     iconSeelive: './icons/live.png',
-    urlSeelive: 'https://github.com/gjuliao/car_app_backend',
+    urlSeelive: 'https://github.com/dgcuenca/car_app_backend',
     btnSeeSource: 'See Source',
     iconSeeSource: './icons/source.png',
-    urlSeeSource: 'https://github.com/gjuliao/car_app_backend',
+    urlSeeSource: 'https://github.com/dgcuenca/car_app_backend',
   },
   {
     closeIcon: './icons/closeIcon.png',

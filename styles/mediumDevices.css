@@ -1,5 +1,6 @@
 @media (min-width: 768px) {
   /* welcome Section */
+  
   .welcomeSection {
     width: 100%;
     display: flex;
@@ -347,22 +348,26 @@
     padding: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 
   .desktopformContainer {
     display: flex;
-    padding: 6rem;
-    gap: 2rem;
+    padding: 10vmin;
+    gap: 3rem;
     margin-bottom: 3rem;
+    align-items: center;
   }
 
   .desktopTEXT {
-    flex: 1;
+    width: 30vw;
+    max-width: 30vw;
+    margin-top: -5vw;
   }
 
   .desktopFORM {
-    flex: 1.5;
-    padding-left: 2rem;
+    width: 300px;
+    max-width: 300px;
   }
 
   .formHeader {
@@ -394,14 +399,15 @@
 
   .buttonf {
     margin: 0;
-    justify-content: start;
     margin-top: 2rem;
+    padding: 0 20px;
   }
 
   .formButton {
-    font-size: 1rem;
-    padding: 1rem;
-    line-height: 1rem;
+    font-size: 1.5rem;
+    line-height: calc(1.5rem * 1.2);
+    width: 100%;
+    border-radius: 4px;
   }
 
   .mediaForm {

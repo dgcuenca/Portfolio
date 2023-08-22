@@ -353,7 +353,7 @@
 
   .desktopformContainer {
     display: flex;
-    padding: 10vmin;
+    padding: 0 10vmin;
     gap: 3rem;
     margin-bottom: 3rem;
     align-items: center;
@@ -390,7 +390,7 @@
     margin: 0;
     padding: 0;
     line-height: 3rem;
-    min-height: 2.5rem;
+    min-height: 15rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 1rem;

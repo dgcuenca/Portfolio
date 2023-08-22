@@ -1,4 +1,4 @@
-const lastSection = document.querySelector('.formSection');
+const lastSection = document.querySelector('.buttonf');
 const navBar = document.querySelector('.toolbar');
 const diego = document.querySelector('#brandName');
 navBar.style.transition = 'background-color 1s ease, border-bottom-color 0.3s ease';

@@ -10,10 +10,10 @@ const dataPopup = [
     The app is responsive. Moreover, the frontend application consumes data from the backend app, which provides user authentication and authorization functionalities.`,
     btnSeelive: 'See Live',
     iconSeelive: './icons/live.png',
-    urlSeelive: 'https://github.com/dgcuenca/car_app_backend',
+    urlSeelive: 'https://github.com/lojacho/car_app_backend',
     btnSeeSource: 'See Source',
     iconSeeSource: './icons/source.png',
-    urlSeeSource: 'https://github.com/dgcuenca/car_app_backend',
+    urlSeeSource: 'https://github.com/lojacho/car_app_backend',
   },
   {
     closeIcon: './icons/closeIcon.png',
@@ -28,7 +28,7 @@ const dataPopup = [
     urlSeelive: 'https://dgcuenca.github.io/ToDoList/',
     btnSeeSource: 'See Source',
     iconSeeSource: './icons/source.png',
-    urlSeeSource: 'https://github.com/dgcuenca/ToDoList',
+    urlSeeSource: 'https://github.com/lojacho/ToDoList',
   },
   {
     closeIcon: './icons/closeIcon.png',
@@ -43,7 +43,7 @@ const dataPopup = [
     urlSeelive: 'https://dgcuenca.github.io/nftGallery/',
     btnSeeSource: 'See Source',
     iconSeeSource: './icons/source.png',
-    urlSeeSource: 'https://github.com/dgcuenca/nftGallery',
+    urlSeeSource: 'https://github.com/lojacho/nftGallery',
   },
   {
     closeIcon: './icons/closeIcon.png',
@@ -58,7 +58,7 @@ const dataPopup = [
     urlSeelive: 'https://reactcapstone.onrender.com/',
     btnSeeSource: 'See Source',
     iconSeeSource: './icons/source.png',
-    urlSeeSource: 'https://github.com/dgcuenca/capstone-react',
+    urlSeeSource: 'https://github.com/lojacho/capstone-react',
   },
   {
     closeIcon: './icons/closeIcon.png',
@@ -70,10 +70,10 @@ const dataPopup = [
     textmulti: 'This app consume data from a RAILS API that I developed collaborative in a previous project, I used RTK Querry to fetch the data',
     btnSeelive: 'See Live',
     iconSeelive: './icons/live.png',
-    urlSeelive: 'https://github.com/dgcuenca/vehicles-rental-frontend',
+    urlSeelive: 'https://github.com/lojacho/vehicles-rental-frontend',
     btnSeeSource: 'See Source',
     iconSeeSource: './icons/source.png',
-    urlSeeSource: 'https://github.com/dgcuenca/vehicles-rental-frontend',
+    urlSeeSource: 'https://github.com/lojacho/vehicles-rental-frontend',
   },
   {
     closeIcon: './icons/closeIcon.png',
@@ -85,10 +85,10 @@ const dataPopup = [
     textmulti: 'I concentrate in give real life functionalities to this app, like authentication, authorizations',
     btnSeelive: 'See Live',
     iconSeelive: './icons/live.png',
-    urlSeelive: 'https://github.com/dgcuenca/Blog-app',
+    urlSeelive: 'https://github.com/lojacho/Blog-app',
     btnSeeSource: 'See Source',
     iconSeeSource: './icons/source.png',
-    urlSeeSource: 'https://github.com/dgcuenca/Blog-app',
+    urlSeeSource: 'https://github.com/lojacho/Blog-app',
   },
 ];
 
